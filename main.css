@@ -273,5 +273,25 @@ footer {
 }
 
 @media all and (min-width:768px){
-  
+  .fija {box-sizing:  border-box;
+   background-color:#099d8d;
+   height: 60px;
+   padding-left: 45px;
+   padding-right: 45px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .menu-{
+   background-color:#099d8d;
+   height: 60px;
+   text-align: center;
+ }
+ .equipment, .aboutus, .contact {
+   height: 60px;
+   padding: 0px;
+ }
+ .equipo, .we, .contacto{
+   height: 60px;
+ }
 }
