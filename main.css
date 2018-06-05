@@ -12,7 +12,7 @@ body {
 
 .h1 {
   background-color:#099d8d;
-  opacity: 0.9;
+  opacity: 0.5;
   margin: 0;
   display: block;
   height: 60px;
@@ -32,7 +32,7 @@ body {
 .menu-{
   font-family: "Rubik";
   background-color:#14d9c4;
-  opacity: 0.8;
+  opacity: 0.5;
   height: 45px;
   margin: 0px;
   padding: 0px;
@@ -59,11 +59,17 @@ body {
 } */
 
 .hero {
-  height: 455px;
+  height: 491.5px;
   margin-bottom: 30px;
+  border: 1px solid red;
+  position: relative;
+  top: 0px;
 }
 .imagen-hero {
-  overflow:hidden;
+  background-image: url("Gupal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 0px left -100px;
   height: 421px;
 }
 
