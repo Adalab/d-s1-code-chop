@@ -270,3 +270,8 @@ footer {
 .adalab-imagen {
   height: 45px;
   width: auto;
+}
+
+@media all and (min-width:768px){
+  
+}
