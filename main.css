@@ -66,11 +66,13 @@ body {
   top: 0px;
 }
 .imagen-hero {
-  background-image: url("Gupal.JPG");
+  background-image: url("grupal.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top 0px left -100px;
+
   height: 421px;
+
 }
 
 .imagen_grupo{
@@ -96,6 +98,8 @@ body {
   padding-right:  15px;
   padding-top:  15px;
   padding-bottom:  15px;
+
+  border: solid green 1px;
 }
 
 .titulo {
@@ -248,6 +252,7 @@ body {
 /*footer*/
 footer {
   text-align: center;
+  border-top: solid #B8B8b9 1px;
 }
 
 .texto_claro {
@@ -271,6 +276,31 @@ footer {
   height: 45px;
   width: auto;
 }
+
+@media all and (min-width:768px) {
+    .footer {
+      position: relative;
+      /* border-top: solid #B8B8b9 1px; */
+    }
+    .logo-adalab {
+      position: absolute;
+      left:20px;
+    }
+    .nav {
+      position: absolute;
+      right: 20px;
+    }
+    .texto_claro {
+      position: absolute;
+      left:20px;
+    }
+
+}
+
+
+
+
+/*footer end*/
 
 @media all and (min-width:768px){
   .fija {box-sizing:  border-box;
