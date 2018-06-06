@@ -170,7 +170,7 @@ body {
   padding-left:0px;
   padding-bottom: 30px;
 }
-/*Olga*/
+/*---------------------quienes somos*------------------*/
 .quienes-somos{
   box-sizing: border-box;
   padding: 30px 15px 30px;
@@ -181,7 +181,8 @@ body {
   font-size: 24px;
   color: #099D8D;
   text-align: center;
-  margin: 0;
+  padding: 45px;
+  margin:0px;
 }
 
 .titulo-pequeño {
@@ -247,7 +248,21 @@ body {
   height: 20px;
   margin: 0 10px;
 }
+@media all and (min-width:768px){
+.quienes-somos{
+  box-sizing: border-box;
+  padding: 30px 15px 30px;
+  width: 100%;
+}
+.foto {
+ display: flex;
+}
 
+
+
+
+
+}
 
 /*footer*/
 footer {
