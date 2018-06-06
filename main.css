@@ -306,22 +306,25 @@ footer {
     .logo-adalab {
       position: absolute;
       left:20px;
+      top: 64px;
+      margin-bottom: 60px;
     }
     .nav {
       position: absolute;
       right: 20px;
+      top: 25px;
     }
     .texto_claro {
       position: absolute;
       left:20px;
+      top:30px;
+      margin: 0px;
     }
 
 }
 
-
-
-
 /*footer end*/
+
 
 @media all and (min-width:768px){
   .fija {box-sizing:  border-box;
@@ -355,4 +358,8 @@ footer {
    display: flex;
    align-items: center;
  }
+}
+
+
+
 }
