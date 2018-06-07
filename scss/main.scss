@@ -60,7 +60,6 @@ body {
 /*Hero*/
 .hero {
   height: 491.5px;
-  border: 1px solid red;
   position: relative;
   top: 0px;
 
@@ -71,6 +70,7 @@ body {
   background-size: cover;
   background-position: top 0px left -100px;
   height: 421px;
+  border: 1px solid red;
 
 }
 
@@ -98,9 +98,24 @@ body {
   padding-right:  15px;
   padding-top:  15px;
   padding-bottom:  15px;
-
-  border: solid green 1px;
 }
+
+@media all and(min-width:768px) {
+  .claim {
+    border: 1px solid green;
+    position: relative;
+    transform: translateY(-100%);
+    width: 441px;
+    opacity: 0.5;
+    margin-left: 45px;
+    padding-left: 30px;
+    padding-right:  30px;
+  }
+
+}
+
+
+/*Fin Hero*/
 
 /*main*/
 
@@ -310,7 +325,7 @@ body {
 /*footer*/
 footer {
   text-align: center;
-  border-top: solid #B8B8b9 1px;
+  border-top: solid #B8B8b9 1px;margin-bottom: 45px;
 }
 
 .texto_claro {
@@ -340,7 +355,7 @@ footer {
 @media all and (min-width:768px) {
     .footer {
       position: relative;
-      /* border-top: solid #B8B8b9 1px; */
+
     }
     .logo-adalab {
       position: absolute;
