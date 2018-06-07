@@ -265,8 +265,43 @@ body {
 .foto {
  display: flex;
 }
+.gemma,.raquel {
+  flex-direction: row;
+}
+.olga,.valeria {
+  flex-direction: row-reverse;
+}
+.recuadro-foto {
+ width: 205px;
+ height: 205px;
+ padding: 30px;
+}
+.g {
+  background-image: url(gemma.jpg);
+}
+.o {
+  background-image: url(olga.jpg);
+}
+.r {
+  background-image: url(raquel.jpg);
+}
+.v {
+  background-image: url(valeria.jpg);
+}
+.flex-item {
+  display: flex;
+  flex-direction: column;}
 
 
+
+
+
+}
+
+
+
+
+}
 
 
 
