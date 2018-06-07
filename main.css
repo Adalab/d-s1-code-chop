@@ -398,6 +398,31 @@ footer {
    align-items: center;
  }
 }
+/* De aquí pabajo ha tocao Gemma */
+@media all and (min-width:768px){
+
+.fort-deb{
+display: flex;
+}
+.titulo_pequeño{
+padding-bottom: 15px;
+}
+.fortalezas{
+  padding-top: 45px;
+  padding-bottom: 60px;
+padding-right: 15px;
+width: 50%
+}
+.debilidades{
+width: 50%;
+padding-top: 45px;
+padding-left: 15px;
+padding-bottom: 60px;
+}
+
+
+
+
 
 
 
