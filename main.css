@@ -307,6 +307,15 @@ body {
 
 }
 
+
+
+
+}
+
+
+
+}
+
 /*footer*/
 footer {
   text-align: center;
@@ -420,70 +429,10 @@ padding-left: 15px;
 padding-bottom: 60px;
 }
 
-/*Contactos*/}
-.contact-section{
-  margin: 0;
-  font-family: 'Open Sans';
-  text-decoration: none;
-  padding-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
-.contact-title{
-  color: #099D8D;
-  font-size: 24px;
-}
-span{
-  color: #099D8D;
-}
-.text{
-  color: #54585A;
-  width: 100%;
-}
-.contact-title, .text1, .text2{
-  margin: 0;
-  text-align: center;
-}
 
-.text1{
-  font-size: 16px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.text2{
-  font-size: 12px;
-  padding-bottom: 60px;
-}
-.labeltext1, .labeltext2, .labeltext3, .labeltext4{
-  font-size: 14px;
-  display: block;
-  text-align: left;
 
-}
 
-.insidebox1, .insidebox2, .insidebox3, .insidebox4{
-  height: 45px;
-  font-size: 16px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border: 1px solid #b8b8b9;
-}
-.insidebox4{
-  height: 105px;
-}
-.send{
-display: block;
-font-size: 14px;
-font-weight: bold;
-color: white;
-width: 100%;
-height: 45px;
-margin: 15px 0 60px;
-padding: 0;
-cursor: pointer;
-background-color: #099D8D;
-border: 0;
-border-radius: 5px;
-text-align: center;
+
+
 }
