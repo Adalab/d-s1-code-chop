@@ -292,9 +292,18 @@ body {
   display: flex;
   flex-direction: column;}
 
-
-
-
+.GR {
+  align-items: flex-start;
+}
+.OV {
+  align-items: flex-end;
+}
+.texto-GR{
+  text-align: left;
+}
+.texto-OV{
+  text-align: right;
+}
 
 }
 
