@@ -154,6 +154,18 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.triangulo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-top: 15px solid white;
+  border-left: 15px solid #F0F0F0;
+  border-right: 15px solid #F0F0F0;
+}
+
 .fort {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -164,6 +176,7 @@ body {
 }
 
 .fort-deb {
+  position: relative;
   background-color:#F0F0F0;
 }
 
