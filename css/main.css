@@ -576,6 +576,10 @@ span {
     display: inline-block;
   }
 }
+form {
+  box-sizing: border-box;
+}
+
 .insidebox1, .insidebox2, .insidebox3, .insidebox4 {
   height: 45px;
   font-size: 16px;
@@ -610,6 +614,7 @@ span {
 }
 .insidebox4 {
   height: 105px;
+  padding: 0;
 }
 
 .send {
@@ -630,15 +635,18 @@ span {
 @media all and (min-width: 768px) {
   .send {
     width: 206px;
-    position: relative;
-    left: 236px;
   }
 }
 @media all and (min-width: 1200px) {
   .send {
     margin-bottom: 120px;
-    position: relative;
-    left: 395px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .cajasend {
+    display: flex;
+    flex-direction: row-reverse;
   }
 }
 
