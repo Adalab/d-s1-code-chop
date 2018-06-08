@@ -447,7 +447,12 @@ footer {
 /*fin cabecera*/
 /* De aquí pabajo ha tocao Gemma */
 @media all and (min-width:768px){
-
+.descripcion {
+  padding-bottom: 60px;
+}
+.team{
+  padding-top: 45px;
+}
 .fort-deb{
 display: flex;
 }
@@ -466,6 +471,9 @@ padding-top: 45px;
 padding-left: 15px;
 padding-bottom: 60px;
 }
+}
+@media all and (min-width:1200px){
+  
 }
 /*Contactos Olga*/
 .contact-section{

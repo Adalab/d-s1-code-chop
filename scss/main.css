@@ -17,19 +17,19 @@ body {
   display: block;
   height: 60px;
   font-size: 18px;
-  text-align: center; }
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .first-name {
-  font-family: "Rubik";
+  font-family: 'Rubik',arial, helvetica, sans-serif;
   background-color: #099d8d;
   text-decoration: none;
   color: white;
-  display: inherit;
-  padding: 21px;
   height: 18px; }
 
 .menu- {
-  font-family: "Rubik";
+  font-family: 'Rubik',arial, helvetica, sans-serif;
   background-color: #14d9c4;
   opacity: 0.8;
   height: 45px;
@@ -37,13 +37,14 @@ body {
   padding: 0px;
   display: inline-block;
   width: 100%;
-  text-align: center; }
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
 
 .equipment, .aboutus, .contact {
   display: inline-block;
   font-size: 17px;
-  height: 17px;
-  padding: 14px; }
+  height: 17px; }
 
 .equipo, .we, .contacto {
   height: 17px;
@@ -133,6 +134,16 @@ body {
   padding-left: 15px;
   padding-right: 15px; }
 
+.triangulo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-top: 15px solid white;
+  border-left: 15px solid #F0F0F0;
+  border-right: 15px solid #F0F0F0; }
+
 .fort {
   margin-top: 0px;
   margin-bottom: 0px; }
@@ -141,6 +152,7 @@ body {
   margin: 0px; }
 
 .fort-deb {
+  position: relative;
   background-color: #F0F0F0; }
 
 .team {
@@ -171,7 +183,7 @@ body {
   padding: 30px 15px 30px; }
 
 .titulo-grande {
-  font-family: 'Rubik-Medium', sans-serif;
+  font-family: 'Rubik',arial, helvetica, sans-serif;
   font-size: 24px;
   color: #099D8D;
   text-align: center;
@@ -185,7 +197,7 @@ body {
 .tit-nombre {
   margin: 0;
   color: #000000;
-  font-family: 'Open Sans-Regular', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   text-align: center;
   padding-top: 15px; }
@@ -194,7 +206,7 @@ body {
   margin: 0;
   color: #54585A;
   font-size: 16px;
-  font-family: 'Open Sans-Regular', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   text-align: center; }
 
@@ -251,6 +263,9 @@ body {
   .olga, .valeria {
     flex-direction: row-reverse; }
 
+  .olga, .raquel, .valeria {
+    padding-top: 60px; }
+
   .recuadro-foto {
     width: 205px;
     height: 205px;
@@ -290,7 +305,10 @@ body {
     padding-top: 15px; }
 
   .social-media {
-    padding-top: 0; } }
+    padding-top: 30px; }
+
+  .contenido-qs {
+    padding-top: 0px; } }
 /*footer*/
 footer {
   text-align: center;
@@ -339,6 +357,7 @@ footer {
     top: 30px;
     margin: 0px; } }
 /*footer end*/
+/*Cabecera */
 @media all and (min-width: 768px) {
   .fija {
     box-sizing: border-box;
@@ -370,9 +389,16 @@ footer {
   .equipo, .we, .contacto {
     height: 60px;
     display: flex;
-    align-items: center; } }
+    align-items: center; }
+
+  .aboutus, .contact {
+    padding-left: 9px; } }
+/*fin cabecera*/
 /* De aquí pabajo ha tocao Gemma */
 @media all and (min-width: 768px) {
+  .titulo {
+    padding: 30px; }
+
   .fort-deb {
     display: flex; }
 
@@ -411,6 +437,17 @@ footer {
     .contact-section {
       width: 601px;
       padding-top: 45px; } }
+
+.imagen-hero-contacto {
+  width: 100%;
+  height: 300px;
+  background-color: orange;
+  background-image: url("grupal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media all and (min-width: 1200px) {
+    .imagen-hero-contacto {
+      height: 400px; } }
 
 .contact-title {
   color: #099D8D;
@@ -494,6 +531,6 @@ span {
     .send {
       margin-bottom: 120px;
       position: relative;
-      left: 395; } }
+      left: 395px; } }
 
 /*# sourceMappingURL=main.css.map */
