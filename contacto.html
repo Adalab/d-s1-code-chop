@@ -41,13 +41,19 @@
 
           <form action="/signup" method="post">
             <label class="text labeltext1" for="nombre">Nombre completo<span>*</span></label>
-              <input class="text insidebox1" placeholder="Nombre..." id="nombre" type="text" name="nombre">
-            <label class="text labeltext2" for="mail">Email<span>*</span></label>
-              <input class="text insidebox2" placeholder="nombre.apellidos@mail.com" id="mail" type="email" name="mail">
-              <label class="text labeltext3" for="telephone">Teléfono</label>
-                <input class="text insidebox3" placeholder="Ej: 123456789" id="telephone" type="tel" name="telephone">
+              <input class="text insidebox1" placeholder="Nombre..." id="nombre" type="text" name="nombre" required>
+            <div class="cajasjuntas">
+              <div class="cajaformulario2">
+                <label class="text labeltext2" for="mail">Email<span>*</span></label>
+                  <input class="text insidebox2" placeholder="nombre.apellidos@mail.com" id="mail" type="email" name="mail" required>
+                </div>
+              <div class="cajaformulario3">
+                <label class="text labeltext3" for="telephone">Teléfono</label>
+                  <input class="text insidebox3" placeholder="Ej: 123456789" id="telephone" type="tel" name="telephone">
+                </div>
+              </div>
               <label class="text labeltext4" for="message">Mensaje<span>*</span></label>
-                <textarea class="text insidebox4" placeholder="¿Qué necesitas?" id="message"name="comments" rows="8" cols="20"></textarea>
+                <textarea class="text insidebox4" placeholder="¿Qué necesitas?" id="message"name="comments" rows="8" cols="20" required></textarea>
             <input class="send" type="submit" value="ENVIAR">
           </form>
 

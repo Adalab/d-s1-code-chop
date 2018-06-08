@@ -399,6 +399,10 @@ footer {
       padding-right: 0;
       display: flex;
       flex-direction: column; } }
+  @media all and (min-width: 1200px) {
+    .contact-section {
+      width: 601px;
+      padding-top: 45px; } }
 
 .contact-title {
   color: #099D8D;
@@ -429,6 +433,9 @@ span {
   display: block;
   text-align: left; }
 
+@media all and (min-width: 1200px) {
+  .labeltext2, .labeltext3 {
+    display: inline-block; } }
 .insidebox1, .insidebox2, .insidebox3, .insidebox4 {
   height: 45px;
   font-size: 16px;
@@ -436,6 +443,23 @@ span {
   margin-bottom: 15px;
   border: 1px solid #b8b8b9; }
 
+@media all and (min-width: 1200px) {
+  .insidebox2, .insidebox3 {
+    display: flex;
+    flex-direction: row; }
+
+  .insidebox2 {
+    width: 395px;
+    margin-right: 44px; }
+
+  .insidebox3 {
+    width: 162px; } }
+@media all and (min-width: 1200px) {
+  .cajaformulario2, .cajaformulario3 {
+    display: inline-block; }
+
+  .cajasjuntas {
+    display: flex; } }
 .insidebox4 {
   height: 105px; }
 
@@ -458,5 +482,10 @@ span {
       width: 206px;
       position: relative;
       left: 236px; } }
+  @media all and (min-width: 1200px) {
+    .send {
+      margin-bottom: 120px;
+      position: relative;
+      left: 395; } }
 
 /*# sourceMappingURL=main.css.map */
