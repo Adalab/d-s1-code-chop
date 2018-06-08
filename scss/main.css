@@ -57,7 +57,6 @@ body {
 /*Hero*/
 .hero {
   height: 491.5px;
-  border: 1px solid red;
   position: relative;
   top: 0px; }
 
@@ -66,7 +65,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top 0px left -100px;
-  height: 421px; }
+  height: 421px;
+  border: 1px solid red; }
 
 .imagen_grupo {
   /* width: 100%; */
@@ -89,9 +89,19 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
-  padding-bottom: 15px;
-  border: solid green 1px; }
+  padding-bottom: 15px; }
 
+@media all and (min-width: 768px) {
+  .claim {
+    border: 1px solid green;
+    position: relative;
+    transform: translateY(-100%);
+    width: 441px;
+    opacity: 0.5;
+    margin-left: 45px;
+    padding-left: 30px;
+    padding-right: 30px; } }
+/*Fin Hero*/
 /*main*/
 .section-equipo {
   box-sizing: border-box; }
@@ -260,11 +270,32 @@ body {
 
   .flex-item {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+
+  .GR {
+    align-items: flex-start; }
+
+  .OV {
+    align-items: flex-end; }
+
+  .texto-GR {
+    text-align: left; }
+
+  .texto-OV {
+    text-align: right; }
+
+  .texto-GR, .texto-OV {
+    margin: 0;
+    display: inline-block;
+    padding-top: 15px; }
+
+  .social-media {
+    padding-top: 0; } }
 /*footer*/
 footer {
   text-align: center;
-  border-top: solid #B8B8b9 1px; }
+  border-top: solid #B8B8b9 1px;
+  margin-bottom: 45px; }
 
 .texto_claro {
   margin-top: 30px;
@@ -289,8 +320,7 @@ footer {
 
 @media all and (min-width: 768px) {
   .footer {
-    position: relative;
-    /* border-top: solid #B8B8b9 1px; */ }
+    position: relative; }
 
   .logo-adalab {
     position: absolute;
@@ -359,16 +389,28 @@ footer {
     width: 50%;
     padding-top: 45px;
     padding-left: 15px;
-    padding-bottom: 60px; }
-
-  /*Contactos*/ }
+    padding-bottom: 60px; } }
+/*Contactos Olga*/
 .contact-section {
   margin: 0;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans',arial, helvetica, sans-serif;
   text-decoration: none;
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px; }
+  @media all and (min-width: 768px) {
+    .contact-section {
+      width: 442px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0;
+      padding-right: 0;
+      display: flex;
+      flex-direction: column; } }
+  @media all and (min-width: 1200px) {
+    .contact-section {
+      width: 601px;
+      padding-top: 45px; } }
 
 .contact-title {
   color: #099D8D;
@@ -399,6 +441,9 @@ span {
   display: block;
   text-align: left; }
 
+@media all and (min-width: 1200px) {
+  .labeltext2, .labeltext3 {
+    display: inline-block; } }
 .insidebox1, .insidebox2, .insidebox3, .insidebox4 {
   height: 45px;
   font-size: 16px;
@@ -406,6 +451,23 @@ span {
   margin-bottom: 15px;
   border: 1px solid #b8b8b9; }
 
+@media all and (min-width: 1200px) {
+  .insidebox2, .insidebox3 {
+    display: flex;
+    flex-direction: row; }
+
+  .insidebox2 {
+    width: 395px;
+    margin-right: 44px; }
+
+  .insidebox3 {
+    width: 162px; } }
+@media all and (min-width: 1200px) {
+  .cajaformulario2, .cajaformulario3 {
+    display: inline-block; }
+
+  .cajasjuntas {
+    display: flex; } }
 .insidebox4 {
   height: 105px; }
 
@@ -423,5 +485,15 @@ span {
   border: 0;
   border-radius: 5px;
   text-align: center; }
+  @media all and (min-width: 768px) {
+    .send {
+      width: 206px;
+      position: relative;
+      left: 236px; } }
+  @media all and (min-width: 1200px) {
+    .send {
+      margin-bottom: 120px;
+      position: relative;
+      left: 395; } }
 
 /*# sourceMappingURL=main.css.map */

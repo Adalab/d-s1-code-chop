@@ -183,7 +183,7 @@ body {
   padding: 30px 15px 30px; }
 
 .titulo-grande {
-  font-family: 'Rubik-Medium', sans-serif;
+  font-family: 'Rubik',arial, helvetica, sans-serif;
   font-size: 24px;
   color: #099D8D;
   text-align: center;
@@ -197,7 +197,7 @@ body {
 .tit-nombre {
   margin: 0;
   color: #000000;
-  font-family: 'Open Sans-Regular', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   text-align: center;
   padding-top: 15px; }
@@ -206,7 +206,7 @@ body {
   margin: 0;
   color: #54585A;
   font-size: 16px;
-  font-family: 'Open Sans-Regular', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   text-align: center; }
 
@@ -263,6 +263,9 @@ body {
   .olga, .valeria {
     flex-direction: row-reverse; }
 
+  .olga, .raquel, .valeria {
+    padding-top: 60px; }
+
   .recuadro-foto {
     width: 205px;
     height: 205px;
@@ -294,7 +297,18 @@ body {
     text-align: left; }
 
   .texto-OV {
-    text-align: right; } }
+    text-align: right; }
+
+  .texto-GR, .texto-OV {
+    margin: 0;
+    display: inline-block;
+    padding-top: 15px; }
+
+  .social-media {
+    padding-top: 30px; }
+
+  .contenido-qs {
+    padding-top: 0px; } }
 /*footer*/
 footer {
   text-align: center;

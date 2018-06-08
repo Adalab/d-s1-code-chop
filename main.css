@@ -17,20 +17,20 @@ body {
   display: block;
   height: 60px;
   font-size: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 .first-name{
-  font-family: 'Rubik',arial, helvetica, sans-serif;
+  font-family: "Rubik";
   background-color:#099d8d;
   text-decoration: none;
   color: white;
+  display: inherit;
+  padding: 21px;
   height: 18px;
 }
 .menu-{
-  font-family:'Rubik',arial, helvetica, sans-serif;
+  font-family: "Rubik";
   background-color:#14d9c4;
   opacity: 0.8;
   height: 45px;
@@ -38,14 +38,13 @@ body {
   padding: 0px;
   display: inline-block;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  text-align: center;
 }
 .equipment, .aboutus, .contact {
   display: inline-block;
   font-size: 17px;
   height: 17px;
+  padding: 14px;
 }
 
 .equipo, .we, .contacto{
@@ -61,6 +60,7 @@ body {
 /*Hero*/
 .hero {
   height: 491.5px;
+  border: 1px solid red;
   position: relative;
   top: 0px;
 
@@ -71,7 +71,6 @@ body {
   background-size: cover;
   background-position: top 0px left -100px;
   height: 421px;
-  border: 1px solid red;
 
 }
 
@@ -99,24 +98,9 @@ body {
   padding-right:  15px;
   padding-top:  15px;
   padding-bottom:  15px;
+
+  border: solid green 1px;
 }
-
-@media all and(min-width:768px) {
-  .claim {
-    border: 1px solid green;
-    position: relative;
-    transform: translateY(-100%);
-    width: 441px;
-    opacity: 0.5;
-    margin-left: 45px;
-    padding-left: 30px;
-    padding-right:  30px;
-  }
-
-}
-
-
-/*Fin Hero*/
 
 /*main*/
 
@@ -155,18 +139,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-
-.triangulo {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 0;
-  height: 0;
-  border-top: 15px solid white;
-  border-left: 15px solid #F0F0F0;
-  border-right: 15px solid #F0F0F0;
-}
-
 .fort {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -177,7 +149,6 @@ body {
 }
 
 .fort-deb {
-  position: relative;
   background-color:#F0F0F0;
 }
 
@@ -214,7 +185,7 @@ body {
 
 }
 .titulo-grande {
-  font-family: 'Rubik',arial, helvetica, sans-serif;
+  font-family: 'Rubik-Medium', sans-serif;
   font-size: 24px;
   color: #099D8D;
   text-align: center;
@@ -230,7 +201,7 @@ body {
 .tit-nombre {
   margin: 0;
   color: #000000;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans-Regular', sans-serif;
   font-size: 20px;
   text-align: center;
   padding-top: 15px;
@@ -239,7 +210,7 @@ body {
   margin: 0;
   color:#54585A;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans-Regular', sans-serif;
   text-decoration: none;
   text-align: center;
 }
@@ -300,9 +271,6 @@ body {
 .olga,.valeria {
   flex-direction: row-reverse;
 }
-.olga,.raquel,.valeria{
-  padding-top: 60px;
-}
 .recuadro-foto {
  width: 205px;
  height: 205px;
@@ -336,23 +304,22 @@ body {
 .texto-OV{
   text-align: right;
 }
-.texto-GR,.texto-OV {
-  margin: 0;
-  display: inline-block;
-  padding-top: 15px;
+
 }
-.social-media {
-  padding-top:30px;
+
+
+
+
 }
-.contenido-qs {
-  padding-top: 0px;
-}
+
+
+
 }
 
 /*footer*/
 footer {
   text-align: center;
-  border-top: solid #B8B8b9 1px;margin-bottom: 45px;
+  border-top: solid #B8B8b9 1px;
 }
 
 .texto_claro {
@@ -382,7 +349,7 @@ footer {
 @media all and (min-width:768px) {
     .footer {
       position: relative;
-
+      /* border-top: solid #B8B8b9 1px; */
     }
     .logo-adalab {
       position: absolute;
@@ -405,7 +372,7 @@ footer {
 }
 
 /*footer end*/
-/*Cabecera */
+
 
 @media all and (min-width:768px){
   .fija {box-sizing:  border-box;
@@ -439,12 +406,7 @@ footer {
    display: flex;
    align-items: center;
  }
-
-.aboutus, .contact{
-  padding-left: 9px;
 }
-}
-/*fin cabecera*/
 /* De aquí pabajo ha tocao Gemma */
 @media all and (min-width:768px){
 
@@ -466,132 +428,11 @@ padding-top: 45px;
 padding-left: 15px;
 padding-bottom: 60px;
 }
-}
-/*Contactos Olga*/
-.contact-section{
-  margin: 0;
-  font-family: 'Open Sans',arial, helvetica, sans-serif;
-  text-decoration: none;
-  padding-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-  @media all and (min-width:768px){
-    width: 442px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0;
-    padding-right: 0;
-    display: flex;
-    flex-direction: column;
-  }
-    @media all and (min-width:1200px){
-      width: 601px;
-      padding-top: 45px;
-    }
-}
-.imagen-hero-contacto{
-  width: 100%;
-  height: 300px;
-  background-color: orange;
-  background-image: url("grupal.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  @media all and (min-width:1200px){
-    height: 400px;
-  }
-}
 
-.contact-title{
-  color: #099D8D;
-  font-size: 24px;
-}
-span{
-  color: #099D8D;
-}
-.text{
-  color: #54585A;
-  width: 100%;
-}
-.contact-title, .text1, .text2{
-  margin: 0;
-  text-align: center;
-}
 
-.text1{
-  font-size: 16px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.text2{
-  font-size: 12px;
-  padding-bottom: 60px;
-}
-.labeltext1, .labeltext2, .labeltext3, .labeltext4{
-  font-size: 14px;
-  display: block;
-  text-align: left;
-}
-@media all and (min-width:1200px){
-  .labeltext2, .labeltext3{
-    display: inline-block;
-  }
-}
 
-.insidebox1, .insidebox2, .insidebox3, .insidebox4{
-  height: 45px;
-  font-size: 16px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border: 1px solid #b8b8b9;
-}
-@media all and (min-width:1200px){
-  .insidebox2, .insidebox3{
-    display: flex;
-    flex-direction: row;
-  }
-  .insidebox2{
-    width: 395px;
-    margin-right: 44px;
-  }
-  .insidebox3{
-    width: 162px;
 
-  }
-}
-@media all and (min-width:1200px){
-  .cajaformulario2, .cajaformulario3{
-    display: inline-block;
-  }
-  .cajasjuntas{
-    display: flex;
-  }
-}
-.insidebox4{
-  height: 105px;
-}
 
-.send{
-display: block;
-font-size: 14px;
-font-weight: bold;
-color: white;
-width: 100%;
-height: 45px;
-margin: 15px 0 60px;
-padding: 0;
-cursor: pointer;
-background-color: #099D8D;
-border: 0;
-border-radius: 5px;
-text-align: center;
-  @media all and (min-width:768px){
-    width: 206px;
-    position: relative;
-    left: 236px;
-  }
-  @media all and (min-width:1200px){
-    margin-bottom: 120px;
-    position: relative;
-    left: 395px;
-  }
+
+
 }
