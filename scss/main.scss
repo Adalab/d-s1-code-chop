@@ -435,7 +435,7 @@ padding-left: 15px;
 padding-bottom: 60px;
 }
 }
-/*Contactos*/
+/*Contactos Olga*/
 .contact-section{
   margin: 0;
   font-family: 'Open Sans',arial, helvetica, sans-serif;
@@ -510,4 +510,9 @@ background-color: #099D8D;
 border: 0;
 border-radius: 5px;
 text-align: center;
+  @media all and (min-width:768px){
+    width: 206px;
+    position: relative;
+    left: 236px;
+  }
 }
