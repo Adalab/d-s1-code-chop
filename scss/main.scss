@@ -536,7 +536,9 @@ span{
     display: inline-block;
   }
 }
-
+form{
+  box-sizing: border-box;
+}
 .insidebox1, .insidebox2, .insidebox3, .insidebox4{
   height: 45px;
   font-size: 16px;
@@ -568,6 +570,7 @@ span{
 }
 .insidebox4{
   height: 105px;
+  padding: 0;
 }
 
 .send{
@@ -586,12 +589,18 @@ border-radius: 5px;
 text-align: center;
   @media all and (min-width:768px){
     width: 206px;
-    position: relative;
-    left: 236px;
+    // position: relative;
+    // left: 236px;
   }
   @media all and (min-width:1200px){
     margin-bottom: 120px;
-    position: relative;
-    left: 395px;
+    // position: relative;
+    // left: 395px;
   }
 }
+@media all and (min-width:768px){
+    .cajasend{
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
