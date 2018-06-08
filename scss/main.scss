@@ -17,20 +17,20 @@ body {
   display: block;
   height: 60px;
   font-size: 18px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .first-name{
-  font-family: "Rubik";
+  font-family: 'Rubik',arial, helvetica, sans-serif;
   background-color:#099d8d;
   text-decoration: none;
   color: white;
-  display: inherit;
-  padding: 21px;
   height: 18px;
 }
 .menu-{
-  font-family: "Rubik";
+  font-family:'Rubik',arial, helvetica, sans-serif;
   background-color:#14d9c4;
   opacity: 0.8;
   height: 45px;
@@ -38,13 +38,14 @@ body {
   padding: 0px;
   display: inline-block;
   width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .equipment, .aboutus, .contact {
   display: inline-block;
   font-size: 17px;
   height: 17px;
-  padding: 14px;
 }
 
 .equipo, .we, .contacto{
@@ -391,7 +392,7 @@ footer {
 }
 
 /*footer end*/
-
+/*Cabecera */
 
 @media all and (min-width:768px){
   .fija {box-sizing:  border-box;
@@ -425,7 +426,12 @@ footer {
    display: flex;
    align-items: center;
  }
+
+.aboutus, .contact{
+  padding-left: 9px;
 }
+}
+/*fin cabecera*/
 /* De aquí pabajo ha tocao Gemma */
 @media all and (min-width:768px){
 
