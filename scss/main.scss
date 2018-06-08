@@ -434,15 +434,24 @@ padding-top: 45px;
 padding-left: 15px;
 padding-bottom: 60px;
 }
-
-/*Contactos*/}
+}
+/*Contactos*/
 .contact-section{
   margin: 0;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans',arial, helvetica, sans-serif;
   text-decoration: none;
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
+  @media all and (min-width:768px){
+    width: 442px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .contact-title{
