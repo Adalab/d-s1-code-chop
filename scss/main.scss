@@ -69,7 +69,8 @@ body {
   background-image: url("../images/grupal.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top 0px left -100px;
+  // background-position: top 0px left -100px;
+  background-position: center;
   height: 421px;
   border: 1px solid red;
 
@@ -113,7 +114,25 @@ body {
     padding-right:  30px;
   }
 
+  .hero {
+    height: 421px;
+  }
+  // .imagen-hero {
+  //   background-image: url("../images/grupal-768.jpg");
+  // }
+
 }
+
+@media all and(min-width:1200px) {
+
+  .imagen-hero {
+    height: 550px;
+  }
+  .hero {
+    height: 550px;
+  }
+}
+
 
 
 /*Fin Hero*/
@@ -308,6 +327,7 @@ body {
  height: 205px;
  padding: 30px;
 }
+
 .g {
   background-image: url(gemma.jpg);
 }
@@ -473,7 +493,7 @@ padding-bottom: 60px;
 }
 }
 @media all and (min-width:1200px){
-  
+
 }
 /*Contactos Olga*/
 .contact-section{
