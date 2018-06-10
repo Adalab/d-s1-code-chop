@@ -2,18 +2,18 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contacto</title>
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:SemiBold">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <header class="fija">
-       <h1 class="h1">
+       <h1 id="codechop" class="h1">
 
-             <a href="#" class="first-name">codeChop</a>
+             <a href="index.html#codechop" class="first-name">codeChop</a>
         </h1>
         <nav class="menu">
           <ul class="menu-">
@@ -39,7 +39,7 @@
           <p class="text text1">Si quieres ponerte en contacto con nosotras por cualquier motivo, rellena el siguiente formulario y nosotras te contestaremos.</p>
           <p class="text text2">Todos los campos marcados con <span>*</span> son obligatorios. </p>
 
-          <form action="/signup" method="post">
+          <form class="formulario" action="/signup" method="post">
             <label class="text labeltext1" for="nombre">Nombre completo<span>*</span></label>
               <input class="text insidebox1" placeholder="Nombre..." id="nombre" type="text" name="nombre" required>
             <div class="cajasjuntas">
@@ -54,29 +54,31 @@
               </div>
               <label class="text labeltext4" for="message">Mensaje<span>*</span></label>
                 <textarea class="text insidebox4" placeholder="¿Qué necesitas?" id="message"name="comments" rows="8" cols="20" required></textarea>
+              <div class="cajasend">
             <input class="send" type="submit" value="ENVIAR">
+          </div>
           </form>
 
         </section>
     </main>
-    <footer class="footer posicion">
-    <p class="texto_claro">codeChop @2018</p>
-    <nav class="">
+    <footer class="footer">
+      <p class="texto_claro">codeChop © 2018</p>
+      <nav class="nav">
         <ul class="lista elimina-margin-padding">
           <li>
-            <a class="pie"href="index.html#equipo">EQUIPO</a>
+            <a  class="pie"href="index.html#equipo">EQUIPO</a>
           </li>
           <li>
-            <a class="pie"href="index.html#quienes-somos">QUIENES SOMOS</a>
+            <a class="pie"href="index.html#quienes_somos">QUIENES SOMOS</a>
           </li>
           <li>
             <a class="pie" href="#">CONTACTO</a>
           </li>
         </ul>
-          <a href="http://adalab.es/" target="_blank">
-          <img class="adalab-imagen" src="http://adalab.es/wp-content/uploads/2016/08/logo_adalab_80px.png" alt="No se puede mostrar imagen.">
-          </a>
       </nav>
+      <a class="logo-adalab" href="http://adalab.es/" target="_blank">
+        <img class="adalab-imagen" src="http://adalab.es/wp-content/uploads/2016/08/logo_adalab_80px.png" alt="No se puede mostrar imagen.">
+      </a>
     </footer>
   </body>
 </html>
