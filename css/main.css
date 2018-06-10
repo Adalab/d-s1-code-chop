@@ -59,8 +59,8 @@ body {
 }
 
 /* .posicion {
-  position: relative;
-  top: 105px;
+position: relative;
+top: 105px;
 } */
 /*Hero*/
 .hero {
@@ -516,6 +516,54 @@ footer {
     padding-bottom: 60px;
   }
 }
+@media all and (min-width: 1200px) {
+  .descripcion {
+    padding-bottom: 60px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 15px;
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+
+  .texto {
+    width: 601px;
+    padding: 0;
+  }
+
+  .team {
+    padding-bottom: 60px;
+  }
+
+  .titulo, .titulo_grande {
+    padding-bottom: 15px;
+  }
+
+  .fortalezas {
+    padding-top: 45px;
+    padding-bottom: 60px;
+    padding-right: 22.5px;
+    width: 50%;
+  }
+
+  .debilidades {
+    width: 50%;
+    padding-top: 45px;
+    padding-left: 22.5px;
+    padding-bottom: 60px;
+  }
+
+  .fort-deb {
+    display: flex;
+    padding: 0;
+  }
+
+  .triangulo {
+    left: 52%;
+  }
+}
+/*De aquí parriba ha tocado Gemma*/
 /*Contactos Olga*/
 .contact-section {
   margin: 0;

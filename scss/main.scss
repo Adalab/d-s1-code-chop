@@ -55,8 +55,8 @@ body {
 }
 
 /* .posicion {
-  position: relative;
-  top: 105px;
+position: relative;
+top: 105px;
 } */
 /*Hero*/
 .hero {
@@ -132,8 +132,6 @@ body {
     height: 550px;
   }
 }
-
-
 
 /*Fin Hero*/
 
@@ -305,101 +303,101 @@ body {
   margin: 0 10px;
 }
 @media all and (min-width:768px){
-.quienes-somos{
-  box-sizing: border-box;
-  padding: 30px 15px 30px;
-  width: 100%;
-}
-.foto {
- display: flex;
-}
-.gemma,.raquel {
-  flex-direction: row;
-}
-.olga,.valeria {
-  flex-direction: row-reverse;
-}
-.olga,.raquel,.valeria{
-  padding-top: 60px;
-}
-.recuadro-foto {
- width: 205px;
- height: 205px;
- padding: 30px;
-}
+  .quienes-somos{
+    box-sizing: border-box;
+    padding: 30px 15px 30px;
+    width: 100%;
+  }
+  .foto {
+    display: flex;
+  }
+  .gemma,.raquel {
+    flex-direction: row;
+  }
+  .olga,.valeria {
+    flex-direction: row-reverse;
+  }
+  .olga,.raquel,.valeria{
+    padding-top: 60px;
+  }
+  .recuadro-foto {
+    width: 205px;
+    height: 205px;
+    padding: 30px;
+  }
 
-.g {
-  background-image: url(gemma.jpg);
-}
-.o {
-  background-image: url(olga.jpg);
-}
-.r {
-  background-image: url(raquel.jpg);
-}
-.v {
-  background-image: url(valeria.jpg);
-}
-.flex-item {
-  display: flex;
-  flex-direction: column;}
+  .g {
+    background-image: url(gemma.jpg);
+  }
+  .o {
+    background-image: url(olga.jpg);
+  }
+  .r {
+    background-image: url(raquel.jpg);
+  }
+  .v {
+    background-image: url(valeria.jpg);
+  }
+  .flex-item {
+    display: flex;
+    flex-direction: column;}
 
-.GR {
-  align-items: flex-start;
-}
-.OV {
-  align-items: flex-end;
-}
-.texto-GR{
-  text-align: left;
-}
-.texto-OV{
-  text-align: right;
-}
-.texto-GR,.texto-OV {
-  margin: 0;
-  display: inline-block;
-  padding-top: 15px;
-}
-.social-media {
-  padding-top:30px;
-}
-.contenido-qs {
-  padding-top: 0px;
-}
-}
+    .GR {
+      align-items: flex-start;
+    }
+    .OV {
+      align-items: flex-end;
+    }
+    .texto-GR{
+      text-align: left;
+    }
+    .texto-OV{
+      text-align: right;
+    }
+    .texto-GR,.texto-OV {
+      margin: 0;
+      display: inline-block;
+      padding-top: 15px;
+    }
+    .social-media {
+      padding-top:30px;
+    }
+    .contenido-qs {
+      padding-top: 0px;
+    }
+  }
 
-/*footer*/
-footer {
-  text-align: center;
-  border-top: solid #B8B8b9 1px;margin-bottom: 45px;
-}
+  /*footer*/
+  footer {
+    text-align: center;
+    border-top: solid #B8B8b9 1px;margin-bottom: 45px;
+  }
 
-.texto_claro {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  color:#B8B8b9;
-  font-size: 14px;
-  font-family: 'Open Sans',arial, helvetica, sans-serif;
-  font-weight: 400;
-  text-decoration: none;
-}
+  .texto_claro {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color:#B8B8b9;
+    font-size: 14px;
+    font-family: 'Open Sans',arial, helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+  }
 
-.pie {
-  color:#54585A;
-  font-size: 14px;
-  font-family: 'Open Sans',arial, helvetica, sans-serif;
-  font-weight: 600;
-  text-decoration: none;
-  text-align: center;
-}
+  .pie {
+    color:#54585A;
+    font-size: 14px;
+    font-family: 'Open Sans',arial, helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+  }
 
-.adalab-imagen {
-  height: 45px;
-  width: auto;
-}
+  .adalab-imagen {
+    height: 45px;
+    width: auto;
+  }
 
-@media all and (min-width:768px) {
+  @media all and (min-width:768px) {
     .footer {
       position: relative;
 
@@ -422,211 +420,254 @@ footer {
       margin: 0px;
     }
 
-}
-
-/*footer end*/
-/*Cabecera */
-
-@media all and (min-width:768px){
-  .fija {box-sizing:  border-box;
-   background-color:#099d8d;
-   height: 60px;
-   padding-left: 45px;
-   padding-right: 45px;
-   display: flex;
-   justify-content: space-between;
- }
- .h1{
-   margin-top: auto;
-   margin-bottom: auto;
-   display: flex;
-   align-items: center;
- }
- .first-name{
-   padding: 0;
- }
- .menu-{
-   background-color:#099d8d;
-   height: 60px;
-   text-align: center;
- }
- .equipment, .aboutus, .contact {
-   height: 60px;
-   padding: 0px;
- }
- .equipo, .we, .contacto{
-   height: 60px;
-   display: flex;
-   align-items: center;
- }
-
-.aboutus, .contact{
-  padding-left: 9px;
-}
-}
-/*fin cabecera*/
-/* De aquí pabajo ha tocao Gemma */
-@media all and (min-width:768px){
-.descripcion {
-  padding-bottom: 60px;
-}
-.team{
-  padding-top: 45px;
-}
-.fort-deb{
-display: flex;
-}
-.titulo_pequeño{
-padding-bottom: 15px;
-}
-.fortalezas{
-  padding-top: 45px;
-  padding-bottom: 60px;
-padding-right: 15px;
-width: 50%
-}
-.debilidades{
-width: 50%;
-padding-top: 45px;
-padding-left: 15px;
-padding-bottom: 60px;
-}
-}
-@media all and (min-width:1200px){
-
-}
-/*Contactos Olga*/
-.contact-section{
-  margin: 0;
-  font-family: 'Open Sans',arial, helvetica, sans-serif;
-  text-decoration: none;
-  padding-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-  @media all and (min-width:768px){
-    width: 442px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0;
-    padding-right: 0;
-    display: flex;
-    flex-direction: column;
   }
+
+  /*footer end*/
+  /*Cabecera */
+
+  @media all and (min-width:768px){
+    .fija {box-sizing:  border-box;
+      background-color:#099d8d;
+      height: 60px;
+      padding-left: 45px;
+      padding-right: 45px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .h1{
+      margin-top: auto;
+      margin-bottom: auto;
+      display: flex;
+      align-items: center;
+    }
+    .first-name{
+      padding: 0;
+    }
+    .menu-{
+      background-color:#099d8d;
+      height: 60px;
+      text-align: center;
+    }
+    .equipment, .aboutus, .contact {
+      height: 60px;
+      padding: 0px;
+    }
+    .equipo, .we, .contacto{
+      height: 60px;
+      display: flex;
+      align-items: center;
+    }
+
+    .aboutus, .contact{
+      padding-left: 9px;
+    }
+  }
+  /*fin cabecera*/
+  /* De aquí pabajo ha tocao Gemma */
+  @media all and (min-width:768px){
+    .descripcion {
+      padding-bottom: 60px;
+    }
+    .team{
+      padding-top: 45px;
+    }
+    .fort-deb{
+      display: flex;
+    }
+    .titulo_pequeño{
+      padding-bottom: 15px;
+    }
+    .fortalezas{
+      padding-top: 45px;
+      padding-bottom: 60px;
+      padding-right: 15px;
+      width: 50%
+    }
+    .debilidades{
+      width: 50%;
+      padding-top: 45px;
+      padding-left: 15px;
+      padding-bottom: 60px;
+    }
+  }
+  @media all and (min-width:1200px){
+    .descripcion {
+      padding-bottom: 60px;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 15px;
+      width: 50%;
+      display: block;
+      margin: auto;
+    }
+    .texto {
+      width: 601px;
+      padding: 0;
+    }
+    .team {
+      padding-bottom: 60px;
+    }
+    .titulo, .titulo_grande {
+      padding-bottom: 15px;
+    }
+
+    .fortalezas{
+      padding-top: 45px;
+      padding-bottom: 60px;
+      padding-right: 22.5px;
+      width: 50%;
+
+    }
+    .debilidades{
+      width: 50%;
+      padding-top: 45px;
+      padding-left: 22.5px;
+      padding-bottom: 60px;
+    }
+
+    .fort-deb{
+      display: flex;
+      padding: 0;
+    }
+    .triangulo {
+      left: 52%;
+    }
+
+  }
+  /*De aquí parriba ha tocado Gemma*/
+
+  /*Contactos Olga*/
+  .contact-section{
+    margin: 0;
+    font-family: 'Open Sans',arial, helvetica, sans-serif;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    @media all and (min-width:768px){
+      width: 442px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0;
+      padding-right: 0;
+      display: flex;
+      flex-direction: column;
+    }
     @media all and (min-width:1200px){
       width: 601px;
       padding-top: 45px;
     }
-}
-.imagen-hero-contacto{
-  width: 100%;
-  height: 300px;
-  // background-color: orange;
-  background-image: url("../images/grupal.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  }
+  .imagen-hero-contacto{
+    width: 100%;
+    height: 300px;
+    // background-color: orange;
+    background-image: url("../images/grupal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media all and (min-width:1200px){
+      height: 400px;
+    }
+  }
+
+  .contact-title{
+    color: #099D8D;
+    font-size: 24px;
+  }
+  span{
+    color: #099D8D;
+  }
+  .text{
+    color: #54585A;
+    width: 100%;
+  }
+  .contact-title, .text1, .text2{
+    margin: 0;
+    text-align: center;
+  }
+
+  .text1{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .text2{
+    font-size: 12px;
+    padding-bottom: 60px;
+  }
+  .labeltext1, .labeltext2, .labeltext3, .labeltext4{
+    font-size: 14px;
+    display: block;
+    text-align: left;
+  }
   @media all and (min-width:1200px){
-    height: 400px;
+    .labeltext2, .labeltext3{
+      display: inline-block;
+    }
   }
-}
+  form{
+    box-sizing: border-box;
+  }
+  .insidebox1, .insidebox2, .insidebox3, .insidebox4{
+    height: 45px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #b8b8b9;
+  }
+  @media all and (min-width:1200px){
+    .insidebox2, .insidebox3{
+      display: flex;
+      flex-direction: row;
+    }
+    .insidebox2{
+      width: 395px;
+      margin-right: 44px;
+    }
+    .insidebox3{
+      width: 162px;
 
-.contact-title{
-  color: #099D8D;
-  font-size: 24px;
-}
-span{
-  color: #099D8D;
-}
-.text{
-  color: #54585A;
-  width: 100%;
-}
-.contact-title, .text1, .text2{
-  margin: 0;
-  text-align: center;
-}
+    }
+  }
+  @media all and (min-width:1200px){
+    .cajaformulario2, .cajaformulario3{
+      display: inline-block;
+    }
+    .cajasjuntas{
+      display: flex;
+    }
+  }
+  .insidebox4{
+    height: 105px;
+    padding: 0;
+  }
 
-.text1{
-  font-size: 16px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.text2{
-  font-size: 12px;
-  padding-bottom: 60px;
-}
-.labeltext1, .labeltext2, .labeltext3, .labeltext4{
-  font-size: 14px;
-  display: block;
-  text-align: left;
-}
-@media all and (min-width:1200px){
-  .labeltext2, .labeltext3{
-    display: inline-block;
+  .send{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    height: 45px;
+    margin: 15px 0 60px;
+    padding: 0;
+    cursor: pointer;
+    background-color: #099D8D;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    @media all and (min-width:768px){
+      width: 206px;
+      // position: relative;
+      // left: 236px;
+    }
+    @media all and (min-width:1200px){
+      margin-bottom: 120px;
+      // position: relative;
+      // left: 395px;
+    }
   }
-}
-form{
-  box-sizing: border-box;
-}
-.insidebox1, .insidebox2, .insidebox3, .insidebox4{
-  height: 45px;
-  font-size: 16px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border: 1px solid #b8b8b9;
-}
-@media all and (min-width:1200px){
-  .insidebox2, .insidebox3{
-    display: flex;
-    flex-direction: row;
-  }
-  .insidebox2{
-    width: 395px;
-    margin-right: 44px;
-  }
-  .insidebox3{
-    width: 162px;
-
-  }
-}
-@media all and (min-width:1200px){
-  .cajaformulario2, .cajaformulario3{
-    display: inline-block;
-  }
-  .cajasjuntas{
-    display: flex;
-  }
-}
-.insidebox4{
-  height: 105px;
-  padding: 0;
-}
-
-.send{
-display: block;
-font-size: 14px;
-font-weight: bold;
-color: white;
-width: 100%;
-height: 45px;
-margin: 15px 0 60px;
-padding: 0;
-cursor: pointer;
-background-color: #099D8D;
-border: 0;
-border-radius: 5px;
-text-align: center;
   @media all and (min-width:768px){
-    width: 206px;
-    // position: relative;
-    // left: 236px;
-  }
-  @media all and (min-width:1200px){
-    margin-bottom: 120px;
-    // position: relative;
-    // left: 395px;
-  }
-}
-@media all and (min-width:768px){
     .cajasend{
       display: flex;
       flex-direction: row-reverse;

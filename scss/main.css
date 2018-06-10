@@ -62,10 +62,10 @@ body {
   top: 0px; }
 
 .imagen-hero {
-  background-image: url("grupal.jpg");
+  background-image: url("../images/grupal.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top 0px left -100px;
+  background-position: center;
   height: 421px;
   border: 1px solid red; }
 
@@ -101,7 +101,16 @@ body {
     opacity: 0.5;
     margin-left: 45px;
     padding-left: 30px;
-    padding-right: 30px; } }
+    padding-right: 30px; }
+
+  .hero {
+    height: 421px; } }
+@media all and (min-width: 1200px) {
+  .imagen-hero {
+    height: 550px; }
+
+  .hero {
+    height: 550px; } }
 /*Fin Hero*/
 /*main*/
 .section-equipo {
@@ -396,8 +405,11 @@ footer {
 /*fin cabecera*/
 /* De aquí pabajo ha tocao Gemma */
 @media all and (min-width: 768px) {
-  .titulo {
-    padding: 30px; }
+  .descripcion {
+    padding-bottom: 60px; }
+
+  .team {
+    padding-top: 45px; }
 
   .fort-deb {
     display: flex; }
@@ -441,8 +453,7 @@ footer {
 .imagen-hero-contacto {
   width: 100%;
   height: 300px;
-  background-color: orange;
-  background-image: url("grupal.jpg");
+  background-image: url("../images/grupal.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   @media all and (min-width: 1200px) {
@@ -481,6 +492,9 @@ span {
 @media all and (min-width: 1200px) {
   .labeltext2, .labeltext3 {
     display: inline-block; } }
+form {
+  box-sizing: border-box; }
+
 .insidebox1, .insidebox2, .insidebox3, .insidebox4 {
   height: 45px;
   font-size: 16px;
@@ -506,7 +520,8 @@ span {
   .cajasjuntas {
     display: flex; } }
 .insidebox4 {
-  height: 105px; }
+  height: 105px;
+  padding: 0; }
 
 .send {
   display: block;
@@ -524,13 +539,14 @@ span {
   text-align: center; }
   @media all and (min-width: 768px) {
     .send {
-      width: 206px;
-      position: relative;
-      left: 236px; } }
+      width: 206px; } }
   @media all and (min-width: 1200px) {
     .send {
-      margin-bottom: 120px;
-      position: relative;
-      left: 395px; } }
+      margin-bottom: 120px; } }
+
+@media all and (min-width: 768px) {
+  .cajasend {
+    display: flex;
+    flex-direction: row-reverse; } }
 
 /*# sourceMappingURL=main.css.map */
