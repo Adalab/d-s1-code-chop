@@ -633,6 +633,26 @@ border: 0px;
   /*De aquí parriba ha tocado Gemma*/
 
   /*Contactos Olga*/
+
+.hero-contacto {
+  height: 300px;
+  @media all and (min-width:1200px){
+    height: 400px;
+  }
+}
+
+.imagen-hero-contacto {
+  background-image: url("../images/grupal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    // background-position: top 0px left -100px;
+  background-position: center;
+  height: 300px;
+  @media all and (min-width:1200px){
+    height: 400px;
+  }
+}
+
 .contact-section{
   margin: 0;
   font-family: 'Open Sans',arial, helvetica, sans-serif;
@@ -654,26 +674,30 @@ border: 0px;
       padding-top: 45px;
   }
 }
+
 .contact-title{
   color: #099D8D;
   font-size: 24px;
 }
+
 span{
   color: #099D8D;
 }
+
 .text{
   color: #54585A;
   width: 100%;
 }
+
 .contact-title, .text1, .text2{
   margin: 0;
   text-align: center;
 }
 
-
 .formulario{
   box-sizing: border-box;
 }
+
 .insidebox1, .insidebox2, .insidebox3, .insidebox4{
   height: 45px;
   font-size: 16px;
@@ -681,6 +705,7 @@ span{
   margin-bottom: 15px;
   border: 1px solid #b8b8b9;
 }
+
 @media all and (min-width:1200px){
   .insidebox2, .insidebox3{
     display: flex;
@@ -693,15 +718,18 @@ span{
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .text2{
     font-size: 12px;
     padding-bottom: 60px;
   }
+
   .labeltext1, .labeltext2, .labeltext3, .labeltext4{
     font-size: 14px;
     display: block;
     text-align: left;
   }
+
   @media all and (min-width:1200px){
     .labeltext2, .labeltext3{
       display: inline-block;
@@ -719,9 +747,9 @@ span{
     }
     .insidebox3{
       width: 162px;
-
     }
   }
+
   @media all and (min-width:1200px){
     .cajaformulario2, .cajaformulario3{
       display: inline-block;
@@ -730,6 +758,7 @@ span{
       display: flex;
     }
   }
+
   .insidebox4{
     height: 105px;
     padding: 0;
@@ -760,6 +789,7 @@ span{
       // left: 395px;
     }
   }
+
   @media all and (min-width:768px){
     .cajasend{
       display: flex;

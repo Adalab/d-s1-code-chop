@@ -548,6 +548,22 @@ footer {
     left: 52%; } }
 /*De aquí parriba ha tocado Gemma*/
 /*Contactos Olga*/
+.hero-contacto {
+  height: 300px; }
+  @media all and (min-width: 1200px) {
+    .hero-contacto {
+      height: 400px; } }
+
+.imagen-hero-contacto {
+  background-image: url("../images/grupal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px; }
+  @media all and (min-width: 1200px) {
+    .imagen-hero-contacto {
+      height: 400px; } }
+
 .contact-section {
   margin: 0;
   font-family: 'Open Sans',arial, helvetica, sans-serif;
