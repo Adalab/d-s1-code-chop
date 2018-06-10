@@ -496,6 +496,25 @@ padding-bottom: 60px;
 
 }
 /*Contactos Olga*/
+
+.hero-contacto{
+  height: 300px;
+  position: relative;
+  top: 0px;
+  @media all and (min-width:1200px){
+    height: 400px;
+  }
+}
+.imagen-hero-contacto{
+  height: 300px;
+  background-image: url("../images/grupal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  @media all and (min-width:1200px){
+    height: 400px;
+  }
+}
 .contact-section{
   margin: 0;
   font-family: 'Open Sans',arial, helvetica, sans-serif;
@@ -517,18 +536,6 @@ padding-bottom: 60px;
       padding-top: 45px;
     }
 }
-.imagen-hero-contacto{
-  width: 100%;
-  height: 300px;
-  // background-color: orange;
-  background-image: url("../images/grupal.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  @media all and (min-width:1200px){
-    height: 400px;
-  }
-}
-
 .contact-title{
   color: #099D8D;
   font-size: 24px;
@@ -564,7 +571,7 @@ span{
     display: inline-block;
   }
 }
-form{
+.formulario{
   box-sizing: border-box;
 }
 .insidebox1, .insidebox2, .insidebox3, .insidebox4{
