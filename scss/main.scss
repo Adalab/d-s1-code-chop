@@ -633,6 +633,7 @@ border: 0px;
     }
     .fort-deb{
       display: flex;
+
     }
     .titulo_pequeño{
       padding-bottom: 15px;
@@ -641,12 +642,14 @@ border: 0px;
       padding-top: 45px;
       padding-bottom: 60px;
       padding-right: 15px;
+      padding-left: 30px;
       width: 50%
     }
     .debilidades{
       width: 50%;
       padding-top: 45px;
       padding-left: 15px;
+      padding-right: 30px;
       padding-bottom: 60px;
     }
   }
@@ -663,7 +666,15 @@ border: 0px;
     .texto {
       width: 601px;
       padding: 0;
-    }
+      margin: auto;
+      }
+.deb {
+  margin:auto;
+}
+.fort {
+  margin:auto;
+}
+
     .team {
       padding-bottom: 60px;
     }
@@ -675,13 +686,14 @@ border: 0px;
       padding-top: 45px;
       padding-bottom: 60px;
       padding-right: 22.5px;
+      padding-left: 45px;
       width: 50%;
-
     }
     .debilidades{
       width: 50%;
       padding-top: 45px;
       padding-left: 22.5px;
+      padding-right: 45px;
       padding-bottom: 60px;
     }
 
@@ -690,7 +702,7 @@ border: 0px;
       padding: 0;
     }
     .triangulo {
-      left: 52%;
+      left: 50%;
     }
 
   }
