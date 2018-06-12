@@ -4,17 +4,23 @@ body {
   background: white;
   width: 100%;
 }
+
+/*Cabecera fija*/
 .fija {
   position: fixed;
   z-index: 5;
   width: 100%;
-}
-
-.h1 {
   background-color:#099d8d;
   opacity: 0.9;
   margin: 0;
   display: block;
+}
+
+.nombregrupo {
+  // background-color:#099d8d;
+  // opacity: 0.9;
+  margin: 0;
+  // display: block;
   height: 60px;
   font-size: 18px;
   display: flex;
