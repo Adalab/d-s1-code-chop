@@ -12,8 +12,7 @@ body {
   width: 100%;
   background-color: #099d8d;
   opacity: 0.9;
-  margin: 0;
-  display: block; }
+  margin: 0; }
 
 .nombregrupo {
   margin: 0;
@@ -497,16 +496,17 @@ footer {
 /*footer end*/
 /*Cabecera */
 @media all and (min-width: 768px) {
-  .fija {
-    box-sizing: border-box;
-    background-color: #099d8d;
-    height: 60px;
-    padding-left: 45px;
-    padding-right: 45px;
+  .contenedor {
+    margin-left: 45px;
+    margin-right: 45px;
     display: flex;
     justify-content: space-between; }
 
-  .h1 {
+  .fija {
+    box-sizing: border-box;
+    height: 60px; }
+
+  .nombregrupo {
     margin-top: auto;
     margin-bottom: auto;
     display: flex;

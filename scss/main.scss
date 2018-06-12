@@ -13,7 +13,7 @@ body {
   background-color:#099d8d;
   opacity: 0.9;
   margin: 0;
-  display: block;
+  // display: block;
 }
 
 .nombregrupo {
@@ -591,16 +591,22 @@ border: 0px;
   /*footer end*/
   /*Cabecera */
 
-  @media all and (min-width:768px){
-    .fija {box-sizing:  border-box;
-      background-color:#099d8d;
-      height: 60px;
-      padding-left: 45px;
-      padding-right: 45px;
+  @media all and (min-width:768px) {
+    .contenedor {
+      margin-left: 45px;
+      margin-right: 45px;
       display: flex;
       justify-content: space-between;
     }
-    .h1{
+    .fija {box-sizing:  border-box;
+      // background-color:#099d8d;
+      height: 60px;
+      // padding-left: 45px;
+      // padding-right: 45px;
+      // display: flex;
+      // justify-content: space-between;
+    }
+    .nombregrupo {
       margin-top: auto;
       margin-bottom: auto;
       display: flex;
