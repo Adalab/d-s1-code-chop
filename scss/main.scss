@@ -267,7 +267,8 @@ top: 105px;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   text-align: center;
-  padding-top: 15px;
+  margin-top: 15px;
+
 }
 .texto-OV,.texto-GR {
   border:0;
@@ -291,7 +292,7 @@ top: 105px;
 }
 .g {
   background-image: url("../images/gemma.jpg");
-  margin-top: 0;
+
 }
 .o {
   background-image: url("../images/olga.jpg");
@@ -303,6 +304,7 @@ top: 105px;
   background-image: url("../images/valeria.jpg");
 }
 .recuadro-foto {
+  padding: 0px;
  width: 180px;
  height: 180px;
  border: 0px;
@@ -321,7 +323,8 @@ top: 105px;
   list-style: none;
   display: flex;
   justify-content: center;
-  padding-top: 15px;
+  padding: 15px 0px 0px 0px;
+  margin-bottom: 45px;
 }
 .fab,.fas{
   color: #099D8D;
@@ -335,6 +338,7 @@ top: 105px;
 }
 .flex-item {
   border:0;
+
 }
 
 @media all and (min-width:768px){
@@ -375,8 +379,10 @@ border: 0px;
  background-size: cover;
  margin-right: 30px;
  margin-left: 30px;
+ margin-top:0px;
  border-radius: 5px;
  border: 5px solid lightgrey;
+
 }
 .g {
   background-image: url("../images/gemma.jpg");
