@@ -17,7 +17,7 @@ body {
 .nombregrupo {
   margin: 0;
   height: 60px;
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -44,11 +44,9 @@ body {
 
 .equipment, .aboutus, .contact {
   display: inline-block;
-  font-size: 17px;
-  height: 17px; }
+  font-size: 15px; }
 
 .equipo, .we, .contacto {
-  height: 17px;
   text-decoration: none;
   color: white; }
 
@@ -503,7 +501,6 @@ footer {
     justify-content: space-between; }
 
   .fija {
-    box-sizing: border-box;
     height: 60px; }
 
   .nombregrupo {
@@ -531,6 +528,11 @@ footer {
 
   .aboutus, .contact {
     padding-left: 9px; } }
+@media all and (min-width: 1014px) {
+  .contenedor {
+    width: 924px;
+    margin-left: auto;
+    margin-right: auto; } }
 /*fin cabecera*/
 /* De aquí pabajo ha tocao Gemma */
 @media all and (min-width: 768px) {

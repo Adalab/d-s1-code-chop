@@ -22,7 +22,7 @@ body {
   margin: 0;
   // display: block;
   height: 60px;
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,6 +35,7 @@ body {
   color: white;
   height: 18px;
 }
+
 .menu-{
   font-family:'Rubik',arial, helvetica, sans-serif;
   background-color:#14d9c4;
@@ -50,12 +51,10 @@ body {
 }
 .equipment, .aboutus, .contact {
   display: inline-block;
-  font-size: 17px;
-  height: 17px;
+  font-size: 15px;
 }
 
 .equipo, .we, .contacto{
-  height: 17px;
   text-decoration: none;
   color: white;
 }
@@ -598,7 +597,7 @@ border: 0px;
       display: flex;
       justify-content: space-between;
     }
-    .fija {box-sizing:  border-box;
+    .fija {
       // background-color:#099d8d;
       height: 60px;
       // padding-left: 45px;
@@ -632,6 +631,14 @@ border: 0px;
 
     .aboutus, .contact{
       padding-left: 9px;
+    }
+  }
+
+  @media all and (min-width:1014px) {
+    .contenedor{
+      width: 924px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   /*fin cabecera*/
