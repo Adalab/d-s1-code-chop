@@ -1,48 +1,23 @@
 body {
-  margin: 0px;
+  margin: 0;
+
   /* font-family: "sans-serif"; */
+
   background: white;
   width: 100%;
 }
 
-/*Cabecera fija*/
-.fija {
-  position: fixed;
-  z-index: 5;
-  width: 100%;
-  background-color:#099d8d;
-  opacity: 0.9;
-  margin: 0;
-  // display: block;
-}
+/* Cabecera */
 
-.nombregrupo {
-  // background-color:#099d8d;
-  // opacity: 0.9;
-  margin: 0;
-  // display: block;
-  height: 60px;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+@import 'layout/header';
 
-.first-name{
-  font-family: 'Rubik',arial, helvetica, sans-serif;
-  background-color:#099d8d;
-  text-decoration: none;
-  color: white;
-  height: 18px;
-}
-
-.menu-{
-  font-family:'Rubik',arial, helvetica, sans-serif;
-  background-color:#14d9c4;
+.menu- {
+  font-family: 'Rubik', arial, helvetica, sans-serif;
+  background-color: #14d9c4;
   opacity: 0.8;
   height: 45px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: inline-block;
   width: 100%;
   display: flex;
@@ -63,13 +38,14 @@ body {
 position: relative;
 top: 105px;
 } */
-/*Hero*/
+
+/* Hero */
 .hero {
   height: 491.5px;
   position: relative;
-  top: 0px;
-
+  top: 0;
 }
+
 .imagen-hero {
   background-image: url("../images/grupal.jpg");
   background-repeat: no-repeat;
@@ -78,16 +54,15 @@ top: 105px;
   background-position: center;
   height: 421px;
   border: 1px solid red;
-
 }
 
-.imagen_grupo{
+.imagen_grupo {
   /* width: 100%; */
   /* height: auto; */
 }
 
 .elimina-margin-padding {
-  margin: 0px;
+  margin: 0;
   padding: 0px;
 }
 

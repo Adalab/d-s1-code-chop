@@ -1,0 +1,29 @@
+.fija {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  background-color: #099d8d;
+  opacity: 0.9;
+  margin: 0;
+  // display: block;
+}
+
+.nombregrupo {
+  // background-color:#099d8d;
+  // opacity: 0.9;
+  margin: 0;
+  // display: block;
+  height: 60px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-name {
+  font-family: 'Rubik', arial, helvetica, sans-serif;
+  background-color: #099d8d;
+  text-decoration: none;
+  color: white;
+  height: 18px;
+}

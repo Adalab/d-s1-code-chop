@@ -1,12 +1,12 @@
 @charset "UTF-8";
 body {
-  margin: 0px;
+  margin: 0;
   /* font-family: "sans-serif"; */
   background: white;
   width: 100%;
 }
 
-/*Cabecera fija*/
+/* Cabecera */
 .fija {
   position: fixed;
   z-index: 5;
@@ -26,7 +26,7 @@ body {
 }
 
 .first-name {
-  font-family: 'Rubik',arial, helvetica, sans-serif;
+  font-family: 'Rubik', arial, helvetica, sans-serif;
   background-color: #099d8d;
   text-decoration: none;
   color: white;
@@ -34,12 +34,12 @@ body {
 }
 
 .menu- {
-  font-family: 'Rubik',arial, helvetica, sans-serif;
+  font-family: 'Rubik', arial, helvetica, sans-serif;
   background-color: #14d9c4;
   opacity: 0.8;
   height: 45px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: inline-block;
   width: 100%;
   display: flex;
@@ -61,11 +61,11 @@ body {
 position: relative;
 top: 105px;
 } */
-/*Hero*/
+/* Hero */
 .hero {
   height: 491.5px;
   position: relative;
-  top: 0px;
+  top: 0;
 }
 
 .imagen-hero {
@@ -83,7 +83,7 @@ top: 105px;
 }
 
 .elimina-margin-padding {
-  margin: 0px;
+  margin: 0;
   padding: 0px;
 }
 
