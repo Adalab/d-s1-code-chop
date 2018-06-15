@@ -1,0 +1,456 @@
+
+body {
+  margin: 0;
+
+  /* font-family: "sans-serif"; */
+
+  background: white;
+  width: 100%;
+}
+
+/* main */
+
+.section-equipo {
+  box-sizing: border-box;
+}
+
+.titulo {
+  color: #099d8d;
+  font-family: 'Rubik', arial, helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.titulo_grande {
+  font-size: 24px;
+}
+
+.titulo_pequeño {
+  font-size: 22px;
+}
+
+.tit_nombre {
+  color: #000;
+  font-family: 'Open Sans', arial, helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.texto {
+  color: #54585a;
+  font-size: 16px;
+  font-family: 'Open Sans', arial, helvetica, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.triangulo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-top: 15px solid white;
+  border-left: 15px solid #f0f0f0;
+  border-right: 15px solid #f0f0f0;
+}
+
+.fort {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.deb {
+  margin: 0;
+}
+
+.fort-deb {
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.team {
+  padding-top: 30px;
+}
+
+.descripcion {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.fortalezas {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.debilidades {
+  padding-bottom: 45px;
+}
+
+.lista {
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 30px;
+}
+
+/* ---------------------quienes somos*------------------ */
+//
+// * {
+//   border: 2px solid red;
+// }
+
+.foto {
+  border: 0;
+}
+
+.quienes-somos {
+  border: 0;
+  box-sizing: border-box;
+  padding: 30px 15px 30px;
+}
+
+.titulo-grande {
+  border: 0;
+  font-family: 'Rubik', arial, helvetica, sans-serif;
+  font-size: 24px;
+  color: #099d8d;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contenido-qs {
+  border: 0;
+}
+
+.titulo-pequeño {
+  font-size: 22px;
+  margin: 0;
+}
+
+.tit-nombre {
+  border: 0;
+  margin: 0;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.texto-OV,
+.texto-GR {
+  border: 0;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #54585a;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.recuadro-foto {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  background-size: cover;
+  margin-top: 45px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 5px solid lightgrey;
+}
+
+.g {
+  background-image: url("../images/gemma.jpg");
+}
+
+.o {
+  background-image: url("../images/olga.jpg");
+}
+
+.r {
+  background-image: url("../images/raquel.jpg");
+}
+
+.v {
+  background-image: url("../images/valeria.jpg");
+}
+
+.social-media {
+  border: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0 0;
+  margin-bottom: 45px;
+}
+
+.fab,
+.fas {
+  color: #099d8d;
+}
+
+.item {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+
+.flex-item {
+  border: 0;
+}
+
+@media all and (min-width: 768px) {
+  .titulo-grande {
+    border: 0;
+  }
+
+  .contenido-qs {
+    border: 0;
+    padding-top: 0;
+  }
+
+  .quienes-somos {
+    border: 0;
+    box-sizing: border-box;
+    padding: 30px 15px 30px;
+    width: 100%;
+  }
+
+  .foto {
+    border: 0;
+    display: flex;
+  }
+
+  .gemma,
+  .raquel {
+    flex-direction: row;
+  }
+
+  .olga,
+  .valeria {
+    flex-direction: row-reverse;
+  }
+
+  .olga,
+  .raquel,
+  .valeria {
+    padding-top: 60px;
+  }
+
+  .valeria {
+    margin-bottom: 45px;
+  }
+
+  .recuadro-foto {
+    width: 205px;
+    height: 205px;
+    background-size: cover;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 0;
+    border-radius: 5px;
+    border: 5px solid lightgrey;
+  }
+
+  .g {
+    background-image: url("../images/gemma.jpg");
+  }
+
+  .o {
+    background-image: url("../images/olga.jpg");
+  }
+
+  .r {
+    background-image: url("../images/raquel.jpg");
+  }
+
+  .v {
+    background-image: url("../images/valeria.jpg");
+  }
+
+  .flex-item {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+  }
+
+  .tit-nombre {
+    border: 0;
+    padding: 0;
+  }
+
+  .GR {
+    align-items: flex-start;
+  }
+
+  .OV {
+    align-items: flex-end;
+  }
+
+  .texto-GR {
+    text-align: left;
+    border: 0;
+  }
+
+  .texto-OV {
+    text-align: right;
+    border: 0;
+  }
+
+  .texto-GR,
+  .texto-OV {
+    margin: 0;
+    display: inline-block;
+    padding-top: 15px;
+    color: #54585a;
+    font-size: 16px;
+    font-family: 'Open Sans', arial, helvetica, sans-serif;
+  }
+
+  .social-media {
+    border: 0;
+    padding-top: 15px;
+  }
+
+  .item {
+    border: 0;
+  }
+}
+
+@media all and(min-width: 1200px) {
+  .recuadro-foto {
+    border: 0;
+    width: 278px;
+    height: 278px;
+  }
+
+  .g,
+  .r {
+    margin-right: 45px;
+    margin-left: 100px;
+  }
+
+  .o,
+  .v {
+    margin-left: 45px;
+    margin-right: 100px;
+  }
+
+  .flex-item {
+    width: 439px;
+  }
+
+  .titulo-grande {
+    font-size: 24px;
+  }
+}
+
+/* De aquí pabajo ha tocao Gemma */
+
+@media all and (min-width: 768px) {
+  .descripcion {
+    padding-bottom: 60px;
+  }
+
+  .team {
+    padding-top: 45px;
+  }
+
+  .fort-deb {
+    display: flex;
+  }
+
+  .titulo_pequeño {
+    padding-bottom: 15px;
+  }
+
+  .fortalezas {
+    padding-top: 45px;
+    padding-bottom: 60px;
+    padding-right: 15px;
+    padding-left: 30px;
+    width: 50%;
+  }
+
+  .debilidades {
+    width: 50%;
+    padding-top: 45px;
+    padding-left: 15px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .descripcion {
+    padding-bottom: 60px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 15px;
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+
+  .texto {
+    width: 601px;
+    padding: 0;
+    margin: auto;
+  }
+
+  .deb {
+    margin: auto;
+  }
+
+  .fort {
+    margin: auto;
+  }
+
+  .team {
+    padding-bottom: 60px;
+  }
+
+  .titulo,
+  .titulo_grande {
+    padding-bottom: 15px;
+  }
+
+  .fortalezas {
+    padding-top: 45px;
+    padding-bottom: 60px;
+    padding-right: 22.5px;
+    padding-left: 45px;
+    width: 50%;
+  }
+
+  .debilidades {
+    width: 50%;
+    padding-top: 45px;
+    padding-left: 22.5px;
+    padding-right: 45px;
+    padding-bottom: 60px;
+  }
+
+  .fort-deb {
+    display: flex;
+    padding: 0;
+  }
+
+  .triangulo {
+    left: 50%;
+  }
+}
+
+/* De aquí parriba ha tocado Gemma */

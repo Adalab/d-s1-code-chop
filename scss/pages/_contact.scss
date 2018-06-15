@@ -1,0 +1,56 @@
+/* Contactos Olga */
+
+.contact-section {
+  margin: 0;
+  font-family: 'Open Sans', arial, helvetica, sans-serif;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media all and (min-width: 768px) {
+    width: 442px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 601px;
+    padding-top: 45px;
+  }
+}
+
+.contact-title {
+  color: #099d8d;
+  font-size: 24px;
+}
+
+.text {
+  @include text;
+}
+
+span {
+  @include asterisco;
+}
+
+.contact-title,
+.text1,
+.text2 {
+  margin: 0;
+  text-align: center;
+}
+
+.text1 {
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.text2 {
+  font-size: 12px;
+  padding-bottom: 60px;
+}
