@@ -221,6 +221,10 @@ top: 105px;
 }
 
 /* ---------------------quienes somos*------------------ */
+* {
+  border: 2px solid red;
+}
+
 .foto {
   border: 0;
 }
@@ -482,6 +486,7 @@ top: 105px;
     border: 0;
     width: 205px;
     height: 205px;
+    padding: 30px;
   }
 
   .flex-item {
@@ -532,7 +537,8 @@ top: 105px;
     margin-left: 100px;
   }
 
-  .o, .v {
+  .o,
+  .v {
     margin-left: 45px;
     margin-right: 100px;
   }
@@ -595,59 +601,15 @@ footer {
   }
 
   .texto_claro {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    color: #B8B8b9;
-    font-size: 14px;
-    font-family: 'Open Sans',arial, helvetica, sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-  }
-
-  .pie {
-    color: #54585A;
-    font-size: 14px;
-    font-family: 'Open Sans',arial, helvetica, sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-    text-align: center;
-  }
-
-  .adalab-imagen {
-    height: 45px;
-    width: auto;
-  }
-}
-@media all and (min-width: 768px) and (min-width: 768px) {
-  .footer {
-    position: relative;
-  }
-
-  .logo-adalab {
-    position: absolute;
-    left: 20px;
-    top: 64px;
-    margin-bottom: 60px;
-  }
-
-  .nav {
-    position: absolute;
-    right: 20px;
-    top: 25px;
-  }
-
-  .texto_claro {
     position: absolute;
     left: 20px;
     top: 30px;
     margin: 0;
   }
 }
+/* footer end */
+/* Cabecera */
 @media all and (min-width: 768px) {
-  /* footer end */
-  /* Cabecera */
-}
-@media all and (min-width: 768px) and (min-width: 768px) {
   .contenedor {
     margin-left: 45px;
     margin-right: 45px;
@@ -676,17 +638,6 @@ footer {
     text-align: center;
   }
 
-  .equipment, .aboutus, .contact {
-    height: 60px;
-    padding: 0px;
-  }
-
-  .equipo, .we, .contacto {
-    height: 60px;
-    display: flex;
-    align-items: center;
-  }
-
   .equipment,
   .aboutus,
   .contact {
@@ -707,18 +658,16 @@ footer {
     padding-left: 9px;
   }
 }
-@media all and (min-width: 768px) and (min-width: 1200px) {
+@media all and (min-width: 1200px) {
   .contenedor {
     width: 924px;
     margin-left: auto;
     margin-right: auto;
   }
 }
+/* fin cabecera */
+/* De aquí pabajo ha tocao Gemma */
 @media all and (min-width: 768px) {
-  /* fin cabecera */
-  /* De aquí pabajo ha tocao Gemma */
-}
-@media all and (min-width: 768px) and (min-width: 768px) {
   .descripcion {
     padding-bottom: 60px;
   }
@@ -751,7 +700,7 @@ footer {
     padding-bottom: 60px;
   }
 }
-@media all and (min-width: 768px) and (min-width: 1200px) {
+@media all and (min-width: 1200px) {
   .descripcion {
     padding-bottom: 60px;
     padding-left: 0;
@@ -810,45 +759,39 @@ footer {
     left: 50%;
   }
 }
-@media all and (min-width: 768px) {
-  /* De aquí parriba ha tocado Gemma */
-  /* Contactos Olga */
-  .hero-contacto {
-    height: 300px;
-  }
+/* De aquí parriba ha tocado Gemma */
+/* Contactos Olga */
+.hero-contacto {
+  height: 300px;
 }
-@media all and (min-width: 768px) and (min-width: 1200px) {
+@media all and (min-width: 1200px) {
   .hero-contacto {
     height: 400px;
   }
 }
 
-@media all and (min-width: 768px) {
-  .imagen-hero-contacto {
-    background-image: url("../images/grupal.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-  }
+.imagen-hero-contacto {
+  background-image: url("../images/grupal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
 }
-@media all and (min-width: 768px) and (min-width: 1200px) {
+@media all and (min-width: 1200px) {
   .imagen-hero-contacto {
     height: 400px;
   }
 }
 
-@media all and (min-width: 768px) {
-  .contact-section {
-    margin: 0;
-    font-family: 'Open Sans', arial, helvetica, sans-serif;
-    text-decoration: none;
-    padding-top: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+.contact-section {
+  margin: 0;
+  font-family: 'Open Sans', arial, helvetica, sans-serif;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-@media all and (min-width: 768px) and (min-width: 768px) {
+@media all and (min-width: 768px) {
   .contact-section {
     width: 442px;
     margin-left: auto;
@@ -859,85 +802,83 @@ footer {
     flex-direction: column;
   }
 }
-@media all and (min-width: 768px) and (min-width: 1200px) {
+@media all and (min-width: 1200px) {
   .contact-section {
     width: 601px;
     padding-top: 45px;
   }
 }
 
-@media all and (min-width: 768px) {
-  .contact-title {
-    color: #099d8d;
-    font-size: 24px;
-  }
-
-  span {
-    color: #099d8d;
-  }
-
-  .text {
-    color: #54585a;
-    width: 100%;
-  }
-
-  .contact-title,
-  .text1,
-  .text2 {
-    margin: 0;
-    text-align: center;
-  }
-
-  .formulario {
-    box-sizing: border-box;
-  }
-
-  .insidebox1,
-  .insidebox2,
-  .insidebox3,
-  .insidebox4 {
-    height: 45px;
-    font-size: 16px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #b8b8b9;
-  }
+.contact-title {
+  color: #099d8d;
+  font-size: 24px;
 }
-@media all and (min-width: 768px) and (min-width: 1200px) {
+
+span {
+  color: #099d8d;
+}
+
+.text {
+  color: #54585a;
+  width: 100%;
+}
+
+.contact-title,
+.text1,
+.text2 {
+  margin: 0;
+  text-align: center;
+}
+
+.formulario {
+  box-sizing: border-box;
+}
+
+.insidebox1,
+.insidebox2,
+.insidebox3,
+.insidebox4 {
+  height: 45px;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #b8b8b9;
+}
+
+@media all and (min-width: 1200px) {
   .insidebox2,
   .insidebox3 {
     display: flex;
     flex-direction: row;
   }
 }
-@media all and (min-width: 768px) {
-  .text1 {
-    font-size: 16px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
-  .text2 {
-    font-size: 12px;
-    padding-bottom: 60px;
-  }
-
-  .labeltext1,
-  .labeltext2,
-  .labeltext3,
-  .labeltext4 {
-    font-size: 14px;
-    display: block;
-    text-align: left;
-  }
+.text1 {
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-@media all and (min-width: 768px) and (min-width: 1200px) {
+
+.text2 {
+  font-size: 12px;
+  padding-bottom: 60px;
+}
+
+.labeltext1,
+.labeltext2,
+.labeltext3,
+.labeltext4 {
+  font-size: 14px;
+  display: block;
+  text-align: left;
+}
+
+@media all and (min-width: 1200px) {
   .labeltext2,
   .labeltext3 {
     display: inline-block;
   }
 }
-@media all and (min-width: 768px) and (min-width: 1200px) {
+@media all and (min-width: 1200px) {
   .insidebox2,
   .insidebox3 {
     display: flex;
@@ -953,13 +894,12 @@ footer {
     width: 162px;
   }
 }
-@media all and (min-width: 768px) and (min-width: 1200px) {
+@media all and (min-width: 1200px) {
   .cajaformulario2,
   .cajaformulario3 {
     display: inline-block;
   }
-}
-@media all and (min-width: 768px) {
+
   .cajasjuntas {
     display: flex;
   }
