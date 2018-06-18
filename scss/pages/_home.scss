@@ -12,7 +12,7 @@ body {
 
 .section-equipo {
   box-sizing: border-box;
-}
+  }
 
 .titulo {
   color: $color-primary;
@@ -95,6 +95,10 @@ body {
   padding-left: 0;
   padding-bottom: 30px;
 }
+
+
+
+
 
 /* ---------------------quienes somos*------------------ */
 //
@@ -373,6 +377,7 @@ body {
   }
 }
 
+
 /* De aquí pabajo ha tocao Gemma */
 
 @media all and (min-width: 768px) {
@@ -385,7 +390,7 @@ body {
   }
 
   .fort-deb {
-    display: flex;
+    // display: flex;
   }
 
   .titulo_pequeño {
@@ -408,6 +413,7 @@ body {
     padding-bottom: 60px;
   }
 }
+
 
 @media all and (min-width: 1200px) {
   .descripcion {
@@ -448,7 +454,6 @@ body {
     padding-right: 22.5px;
     padding-left: 45px;
     width: 50%;
-
   }
 
   .debilidades {
@@ -460,7 +465,7 @@ body {
   }
 
   .fort-deb {
-    display: flex;
+    // display: flex;
     padding: 0;
   }
 
