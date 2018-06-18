@@ -420,6 +420,17 @@ body {
   margin: 0 10px;
 }
 
+.dot::before {
+  position: absolute;
+  right: 30px;
+  top: 8px;
+  width: 3px;
+  height: 3px;
+  background-color: #499d8d;
+  border-radius: 10px;
+  content: '';
+}
+
 .flex-item {
   border: 0;
 }/* De aquí pabajo ha tocao Gemma *//* De aquí parriba ha tocado Gemma */@media all and (min-width: 768px) {
