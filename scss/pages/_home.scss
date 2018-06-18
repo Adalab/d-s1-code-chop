@@ -230,21 +230,32 @@ body {
 
   .titulo-grande {
     border: 0;
+    margin-bottom: 45px;
+    margin-top: 45px;
+  }
+  .mariposa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .contenido-qs {
     border: 0;
     padding-top: 0;
+    padding-bottom: 45px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr;
+    grid-template-columns: 215px 215px 215px ;
+    grid-template-rows: 215px 215px 215px 215px;
+    grid-row-gap: 60px;
+    grid-column-gap: 30px;
 
   }
 
   .quienes-somos {
     border: 0;
     box-sizing: border-box;
-    padding: 30px 15px 30px;
+    padding: 45px;
     width: 100%;
 
   }
@@ -254,38 +265,67 @@ body {
     display: flex;
   }
 
-  .gemma,
-  .raquel {
+  .gemma {
     flex-direction: row;
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 4;
+    grid-row: 1/2;
+  }
+  .raquel{
+    flex-direction: row;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 3/4;
 
   }
 
-  .olga,
-  .valeria {
+  .olga {
     flex-direction: row-reverse;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
+    grid-row: 2/3;
+  }
+  .valeria{
+    flex-direction: row-reverse;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 4/5;
+
+  }
+  .g{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1/2;
+
+  }
+  .o{
+    grid-column-start: 4;
+    grid-column-end: 3;
+    grid-row: 2/3;
+
+
+  }
+  .r{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 3/4;
+
+
+  }
+  .v{grid-column-start: 4;
+    grid-column-end: 3;
+    grid-row: 4/5;
+
+
   }
 
-  .olga,
-  .raquel,
-  .valeria {
-    padding-top: 60px;
-  }
-
-  .valeria {
-    margin-bottom: 45px;
-  }
 
   .recuadro-foto {
     width: 205px;
     height: 205px;
     background-size: cover;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 0;
+
+    margin:0;
     border-radius: 5px;
     border: 5px solid $color-background;
   }
@@ -325,7 +365,7 @@ body {
   .texto-OV {
     margin: 0;
     display: inline-block;
-    padding-top: 15px;
+    padding:0;
     color: $color-terciary;
     font-size: 16px;
     font-family: 'Open Sans', arial, helvetica, sans-serif;
@@ -342,24 +382,19 @@ body {
 }
 
 @media all and(min-width: 1200px) {
+
+  .titulo-grande {
+    border: 0;
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+
   .recuadro-foto {
     border: 0;
     width: 278px;
     height: 278px;
     border-radius: 5px;
     border: 5px solid $color-background;
-  }
-
-  .g,
-  .r {
-    margin-right: 45px;
-    margin-left: 100px;
-  }
-
-  .o,
-  .v {
-    margin-left: 45px;
-    margin-right: 100px;
   }
 
   .flex-item {
@@ -374,6 +409,12 @@ body {
     min-width: 924px;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 288px 288px 288px ;
+    grid-template-rows: 288px 288px 288px ;
+    grid-column-gap: 45px;
+
   }
 }
 
