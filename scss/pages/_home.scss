@@ -383,6 +383,8 @@ body {
 @media all and (min-width: 768px) {
   .descripcion {
     padding-bottom: 60px;
+    max-width: 601px;
+    margin: auto;
   }
 
   .team {
@@ -401,7 +403,7 @@ body {
     padding-top: 45px;
     padding-bottom: 60px;
     padding-right: 15px;
-    padding-left: 30px;
+    // padding-left: 30px;
     width: 50%;
   }
 
@@ -409,7 +411,7 @@ body {
     width: 50%;
     padding-top: 45px;
     padding-left: 15px;
-    padding-right: 30px;
+    // padding-right: 30px;
     padding-bottom: 60px;
   }
 }
@@ -421,7 +423,6 @@ body {
     padding-left: 0;
     padding-right: 0;
     padding-top: 15px;
-    width: 50%;
     display: block;
     margin: auto;
   }
