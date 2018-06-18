@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 .fija {
   position: fixed;
   z-index: 5;
@@ -13,14 +12,8 @@
   margin: 0;
   height: 60px;
   font-size: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -40,25 +33,85 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
-.equipment,.aboutus,.contact {
+.equipment,
+.aboutus,
+.contact {
   display: inline-block;
   font-size: 15px;
 }
 
-.equipo,.we,.contacto {
+.equipo,
+.we,
+.contacto {
   text-decoration: none;
   color: white;
-}/* Mediaqueries Cabecera *//* fin cabecera *//* footer */footer {
+}
+
+/* Mediaqueries Cabecera */
+@media all and (min-width: 768px) {
+  .contenedor {
+    margin-left: 45px;
+    margin-right: 45px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fija {
+    height: 60px;
+  }
+
+  .nombregrupo {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .first-name {
+    padding: 0;
+  }
+
+  .menu- {
+    background-color: #099d8d;
+    height: 60px;
+    text-align: center;
+  }
+
+  .equipment,
+  .aboutus,
+  .contact {
+    height: 60px;
+    padding: 0;
+  }
+
+  .equipo,
+  .we,
+  .contacto {
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+  .aboutus,
+  .contact {
+    padding-left: 9px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .contenedor {
+    width: 924px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* fin cabecera */
+/* footer */
+footer {
   text-align: center;
   border-top: solid #b8b8b9 1px;
   margin-bottom: 45px;
@@ -86,7 +139,82 @@
 .adalab-imagen {
   height: 45px;
   width: auto;
-}/* footer end */.text {
+}
+
+@media all and (min-width: 768px) {
+  .footer {
+    position: relative;
+  }
+
+  .logo-adalab {
+    position: absolute;
+    left: 20px;
+    top: 64px;
+    margin-bottom: 60px;
+  }
+
+  .nav {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+  }
+
+  .texto_claro {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #b8b8b9;
+    font-size: 14px;
+    font-family: 'Open Sans', arial, helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  .pie {
+    color: #54585a;
+    font-size: 14px;
+    font-family: 'Open Sans', arial, helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .adalab-imagen {
+    height: 45px;
+    width: auto;
+  }
+}
+@media all and (min-width: 768px) {
+  .footer {
+    position: relative;
+  }
+
+  .logo-adalab {
+    position: absolute;
+    left: 20px;
+    top: 64px;
+    margin-bottom: 60px;
+  }
+
+  .nav {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+  }
+
+  .elimina-margin-padding {
+    margin: 0;
+    padding: 0;
+  }
+
+  .texto_claro {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    margin: 0;
+  }
+}
+/* footer end */
+.text {
   color: #54585a;
   width: 100%;
 }
@@ -96,11 +224,13 @@ span {
 }
 
 .formulario {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.insidebox1,.insidebox2,.insidebox3,.insidebox4 {
+.insidebox1,
+.insidebox2,
+.insidebox3,
+.insidebox4 {
   height: 45px;
   font-size: 16px;
   margin-top: 5px;
@@ -108,12 +238,54 @@ span {
   border: 1px solid #b8b8b9;
 }
 
-.labeltext1,.labeltext2,.labeltext3,.labeltext4 {
+@media all and (min-width: 1200px) {
+  .insidebox2,
+  .insidebox3 {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.labeltext1,
+.labeltext2,
+.labeltext3,
+.labeltext4 {
   font-size: 14px;
   display: block;
   text-align: left;
 }
 
+@media all and (min-width: 1200px) {
+  .labeltext2,
+  .labeltext3 {
+    display: inline-block;
+  }
+}
+@media all and (min-width: 1200px) {
+  .insidebox2,
+  .insidebox3 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .insidebox2 {
+    width: 395px;
+    margin-right: 44px;
+  }
+
+  .insidebox3 {
+    width: 162px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .cajaformulario2,
+  .cajaformulario3 {
+    display: inline-block;
+  }
+
+  .cajasjuntas {
+    display: flex;
+  }
+}
 .insidebox4 {
   height: 105px;
   padding: 0;
@@ -133,13 +305,30 @@ span {
   border: 0;
   border-radius: 5px;
   text-align: center;
-  -webkit-transition: color ease .8s;
   transition: color ease .8s;
 }
-
 .send:hover {
   background-color: #14d9c4;
-}/* Hero */.hero {
+}
+@media all and (min-width: 768px) {
+  .send {
+    width: 206px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .send {
+    margin-bottom: 120px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .cajasend {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+/* Hero */
+.hero {
   height: 491.5px;
   position: relative;
   top: 0;
@@ -160,7 +349,6 @@ span {
 
 .claim {
   position: relative;
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   color: #000;
   font-size: 18px;
@@ -173,8 +361,41 @@ span {
   padding-right: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
-}/* Fin Hero *//* Hero contactos */.hero-contacto {
+}
+
+@media all and (min-width: 768px) {
+  .claim {
+    position: relative;
+    transform: translateY(-100%);
+    width: 441px;
+    opacity: 0.5;
+    margin-left: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .hero {
+    height: 421px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .imagen-hero {
+    height: 550px;
+  }
+
+  .hero {
+    height: 550px;
+  }
+}
+/* Fin Hero */
+/* Hero contactos */
+.hero-contacto {
   height: 300px;
+}
+@media all and (min-width: 1200px) {
+  .hero-contacto {
+    height: 400px;
+  }
 }
 
 .imagen-hero-contacto {
@@ -183,13 +404,38 @@ span {
   background-size: cover;
   background-position: center;
   height: 300px;
-}/* Contactos Olga */.contact-section {
+}
+@media all and (min-width: 1200px) {
+  .imagen-hero-contacto {
+    height: 400px;
+  }
+}
+
+/* Contactos Olga */
+.contact-section {
   margin: 0;
   font-family: 'Open Sans', arial, helvetica, sans-serif;
   text-decoration: none;
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media all and (min-width: 768px) {
+  .contact-section {
+    width: 442px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media all and (min-width: 1200px) {
+  .contact-section {
+    width: 601px;
+    padding-top: 45px;
+  }
 }
 
 .contact-title {
@@ -206,7 +452,9 @@ span {
   color: #14d9c4;
 }
 
-.contact-title,.text1,.text2 {
+.contact-title,
+.text1,
+.text2 {
   margin: 0;
   text-align: center;
 }
@@ -224,11 +472,13 @@ span {
 
 body {
   margin: 0;
- /* font-family: "sans-serif"; */
+  /* font-family: "sans-serif"; */
   background: #fff;
   width: 100%;
-}/* main */.section-equipo {
-  -webkit-box-sizing: border-box;
+}
+
+/* main */
+.section-equipo {
   box-sizing: border-box;
 }
 
@@ -267,7 +517,6 @@ body {
 .triangulo {
   position: absolute;
   left: 50%;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 0;
   height: 0;
@@ -313,13 +562,15 @@ body {
   list-style: none;
   padding-left: 0;
   padding-bottom: 30px;
-}/* ---------------------quienes somos*------------------ */.foto {
+}
+
+/* ---------------------quienes somos*------------------ */
+.foto {
   border: 0;
 }
 
 .quienes-somos {
   border: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 30px 15px 30px;
 }
@@ -353,7 +604,8 @@ body {
   margin-top: 15px;
 }
 
-.texto-OV,.texto-GR {
+.texto-OV,
+.texto-GR {
   border: 0;
   margin: 0;
   padding-left: 15px;
@@ -399,17 +651,14 @@ body {
   border: 0;
   margin: 0;
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   padding: 15px 0 0;
   margin-bottom: 45px;
 }
 
-.fab,.fas {
+.fab,
+.fas {
   color: #099d8d;
 }
 
@@ -433,248 +682,109 @@ body {
 
 .flex-item {
   border: 0;
-}/* De aquí pabajo ha tocao Gemma *//* De aquí parriba ha tocado Gemma */@media all and (min-width: 768px) {
-  .contenedor {
-    margin-left: 45px;
-    margin-right: 45px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
+}
 
-  .fija {
-    height: 60px;
-  }
-
-  .nombregrupo {
-    margin-top: auto;
-    margin-bottom: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .first-name {
-    padding: 0;
-  }
-
-  .menu- {
-    background-color: #099d8d;
-    height: 60px;
-    text-align: center;
-  }
-
-  .equipment,.aboutus,.contact {
-    height: 60px;
-    padding: 0;
-  }
-
-  .equipo,.we,.contacto {
-    height: 60px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .aboutus,.contact {
-    padding-left: 9px;
-  }
-
-  .footer {
-    position: relative;
-  }
-
-  .logo-adalab {
-    position: absolute;
-    left: 20px;
-    top: 64px;
-    margin-bottom: 60px;
-  }
-
-  .nav {
-    position: absolute;
-    right: 20px;
-    top: 25px;
-  }
-
-  .texto_claro {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    color: #b8b8b9;
-    font-size: 14px;
-    font-family: 'Open Sans', arial, helvetica, sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-  }
-
-  .pie {
-    color: #54585a;
-    font-size: 14px;
-    font-family: 'Open Sans', arial, helvetica, sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-    text-align: center;
-  }
-
-  .adalab-imagen {
-    height: 45px;
-    width: auto;
-  }
-
-  .footer {
-    position: relative;
-  }
-
-  .logo-adalab {
-    position: absolute;
-    left: 20px;
-    top: 64px;
-    margin-bottom: 60px;
-  }
-
-  .nav {
-    position: absolute;
-    right: 20px;
-    top: 25px;
-  }
-
-  .elimina-margin-padding {
-    margin: 0;
-    padding: 0;
-  }
-
-  .texto_claro {
-    position: absolute;
-    left: 20px;
-    top: 30px;
-    margin: 0;
-  }
-
-  .send {
-    width: 206px;
-  }
-
-  .cajasend {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
-  }
-
-  .claim {
-    position: relative;
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    width: 441px;
-    opacity: 0.5;
-    margin-left: 45px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .hero {
-    height: 421px;
-  }
-
-  .contact-section {
-    width: 442px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0;
-    padding-right: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
+@media all and (min-width: 768px) {
   .titulo-grande {
     border: 0;
+    margin-bottom: 45px;
+    margin-top: 45px;
+  }
+
+  .mariposa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .contenido-qs {
     border: 0;
     padding-top: 0;
+    padding-bottom: 45px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 215px 215px 215px;
+    grid-template-rows: 215px 215px 215px 215px;
+    grid-row-gap: 60px;
+    grid-column-gap: 30px;
   }
 
   .quienes-somos {
     border: 0;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 30px 15px 30px;
+    padding: 45px;
     width: 100%;
   }
 
   .foto {
     border: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 
-  .gemma,.raquel {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
+  .gemma {
     flex-direction: row;
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 4;
+    grid-row: 1/2;
   }
 
-  .olga,.valeria {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: row-reverse;
+  .raquel {
+    flex-direction: row;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 3/4;
+  }
+
+  .olga {
     flex-direction: row-reverse;
     grid-column-start: 1;
-    grid-column-end: 4;
-  }
-
-  .olga,.raquel,.valeria {
-    padding-top: 60px;
+    grid-column-end: 3;
+    grid-row: 2/3;
   }
 
   .valeria {
-    margin-bottom: 45px;
+    flex-direction: row-reverse;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 4/5;
+  }
+
+  .g {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1/2;
+  }
+
+  .o {
+    grid-column-start: 4;
+    grid-column-end: 3;
+    grid-row: 2/3;
+  }
+
+  .r {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 3/4;
+  }
+
+  .v {
+    grid-column-start: 4;
+    grid-column-end: 3;
+    grid-row: 4/5;
   }
 
   .recuadro-foto {
     width: 205px;
     height: 205px;
     background-size: cover;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 0;
+    margin: 0;
     border-radius: 5px;
     border: 5px solid #f1f1f1;
   }
 
   .flex-item {
     border: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     width: 450px;
   }
@@ -685,14 +795,10 @@ body {
   }
 
   .GR {
-    -webkit-box-align: start;
-    -ms-flex-align: start;
     align-items: flex-start;
   }
 
   .OV {
-    -webkit-box-align: end;
-    -ms-flex-align: end;
     align-items: flex-end;
   }
 
@@ -706,10 +812,11 @@ body {
     border: 0;
   }
 
-  .texto-GR,.texto-OV {
+  .texto-GR,
+  .texto-OV {
     margin: 0;
     display: inline-block;
-    padding-top: 15px;
+    padding: 0;
     color: #54585a;
     font-size: 16px;
     font-family: 'Open Sans', arial, helvetica, sans-serif;
@@ -723,7 +830,44 @@ body {
   .item {
     border: 0;
   }
+}
+@media all and (min-width: 1200px) {
+  .titulo-grande {
+    border: 0;
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
 
+  .recuadro-foto {
+    border: 0;
+    width: 278px;
+    height: 278px;
+    border-radius: 5px;
+    border: 5px solid #f1f1f1;
+  }
+
+  .flex-item {
+    width: 439px;
+  }
+
+  .titulo-grande {
+    font-size: 24px;
+  }
+
+  .contenido-qs {
+    max-width: 924px;
+    min-width: 924px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 288px 288px 288px;
+    grid-template-rows: 288px 288px 288px;
+    grid-column-gap: 45px;
+  }
+}
+/* De aquí pabajo ha tocao Gemma */
+@media all and (min-width: 768px) {
   .descripcion {
     padding-bottom: 60px;
   }
@@ -733,8 +877,6 @@ body {
   }
 
   .fort-deb {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 
@@ -758,115 +900,7 @@ body {
     padding-bottom: 60px;
   }
 }
-
 @media all and (min-width: 1200px) {
-  .contenedor {
-    width: 924px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .insidebox2,.insidebox3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-
-  .labeltext2,.labeltext3 {
-    display: inline-block;
-  }
-
-  .insidebox2,.insidebox3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-
-  .insidebox2 {
-    width: 395px;
-    margin-right: 44px;
-  }
-
-  .insidebox3 {
-    width: 162px;
-  }
-
-  .cajaformulario2,.cajaformulario3 {
-    display: inline-block;
-  }
-
-  .cajasjuntas {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-
-  .send {
-    margin-bottom: 120px;
-  }
-
-  .imagen-hero {
-    height: 550px;
-  }
-
-  .hero {
-    height: 550px;
-  }
-
-  .hero-contacto {
-    height: 400px;
-  }
-
-  .imagen-hero-contacto {
-    height: 400px;
-  }
-
-  .contact-section {
-    width: 601px;
-    padding-top: 45px;
-  }
-
-  .recuadro-foto {
-    border: 0;
-    width: 278px;
-    height: 278px;
-    border-radius: 5px;
-    border: 5px solid #f1f1f1;
-  }
-
-  .g,.r {
-    margin-right: 45px;
-    margin-left: 100px;
-  }
-
-  .o,.v {
-    margin-left: 45px;
-    margin-right: 100px;
-  }
-
-  .flex-item {
-    width: 439px;
-  }
-
-  .titulo-grande {
-    font-size: 24px;
-  }
-
-  .contenido-qs {
-    max-width: 924px;
-    min-width: 924px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .descripcion {
     padding-bottom: 60px;
     padding-left: 0;
@@ -894,7 +928,8 @@ body {
     padding-bottom: 60px;
   }
 
-  .titulo,.titulo_grande {
+  .titulo,
+  .titulo_grande {
     padding-bottom: 15px;
   }
 
@@ -915,8 +950,6 @@ body {
   }
 
   .fort-deb {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding: 0;
   }
@@ -925,5 +958,6 @@ body {
     left: 50%;
   }
 }
+/* De aquí parriba ha tocado Gemma */
 
 /*# sourceMappingURL=main.css.map */
