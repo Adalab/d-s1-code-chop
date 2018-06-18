@@ -1,4 +1,10 @@
 @charset "UTF-8";
+.wrapper {
+  max-width: 924px;
+  display: flex;
+  margin: auto;
+}
+
 .fija {
   position: fixed;
   z-index: 5;
@@ -876,10 +882,6 @@ body {
     padding-top: 45px;
   }
 
-  .fort-deb {
-    display: flex;
-  }
-
   .titulo_pequeño {
     padding-bottom: 15px;
   }
@@ -950,7 +952,6 @@ body {
   }
 
   .fort-deb {
-    display: flex;
     padding: 0;
   }
 
