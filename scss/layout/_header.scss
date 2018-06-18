@@ -2,7 +2,7 @@
   position: fixed;
   z-index: 5;
   width: 100%;
-  background-color: #099d8d;
+  background-color: $color-primary;
   opacity: 0.9;
   margin: 0;
   // display: block;
@@ -22,7 +22,7 @@
 
 .first-name {
   font-family: 'Rubik', arial, helvetica, sans-serif;
-  background-color: #099d8d;
+  background-color: $color-primary;
   text-decoration: none;
   color: white;
   height: 18px;
@@ -30,7 +30,7 @@
 
 .menu- {
   font-family: 'Rubik', arial, helvetica, sans-serif;
-  background-color: #14d9c4;
+  background-color: $color-verde-claro;
   opacity: 0.8;
   height: 45px;
   margin: 0;
@@ -86,7 +86,7 @@
   }
 
   .menu- {
-    background-color: #099d8d;
+    background-color: $color-primary;
     height: 60px;
     text-align: center;
   }

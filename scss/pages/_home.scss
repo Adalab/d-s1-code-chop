@@ -4,7 +4,7 @@ body {
 
   /* font-family: "sans-serif"; */
 
-  background: white;
+  background: $color-blanco;
   width: 100%;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 .titulo {
-  color: #099d8d;
+  color: $color-primary;
   font-family: 'Rubik', arial, helvetica, sans-serif;
   text-align: center;
   margin: 0;
@@ -30,13 +30,13 @@ body {
 }
 
 .tit_nombre {
-  color: #000;
+  color: $color-negro;
   font-family: 'Open Sans', arial, helvetica, sans-serif;
   font-size: 20px;
 }
 
 .texto {
-  color: #54585a;
+  color: $color-terciary;
   font-size: 16px;
   font-family: 'Open Sans', arial, helvetica, sans-serif;
   font-weight: 400;
@@ -52,9 +52,9 @@ body {
   transform: translateX(-50%);
   width: 0;
   height: 0;
-  border-top: 15px solid white;
-  border-left: 15px solid #f0f0f0;
-  border-right: 15px solid #f0f0f0;
+  border-top: 15px solid $color-blanco;
+  border-left: 15px solid $color-background;
+  border-right: 15px solid $color-background;
 }
 
 .fort {
@@ -68,7 +68,7 @@ body {
 
 .fort-deb {
   position: relative;
-  background-color: #f0f0f0;
+  background-color: $color-background;
 }
 
 .team {
@@ -116,7 +116,7 @@ body {
   border: 0;
   font-family: 'Rubik', arial, helvetica, sans-serif;
   font-size: 24px;
-  color: #099d8d;
+  color: $color-primary;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -134,7 +134,7 @@ body {
 .tit-nombre {
   border: 0;
   margin: 0;
-  color: #000;
+  color: $color-secondary;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   text-align: center;
@@ -147,7 +147,7 @@ body {
   margin: 0;
   padding-left: 15px;
   padding-right: 15px;
-  color: #54585a;
+  color: $color-terciary;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
@@ -165,7 +165,7 @@ body {
   margin-top: 45px;
   margin-bottom: 15px;
   border-radius: 5px;
-  border: 5px solid lightgrey;
+  border: 5px solid $color-background;
 }
 
 .g {
@@ -196,7 +196,7 @@ body {
 
 .fab,
 .fas {
-  color: #099d8d;
+  color: $color-primary;
 }
 
 .item {
@@ -259,25 +259,25 @@ body {
     margin-right: 30px;
     margin-left: 30px;
     margin-top: 0;
-    border-radius: 5px;
-    border: 5px solid lightgrey;
+    // border-radius: 5px;
+    // border: 5px solid $color-background;
   }
 
-  .g {
-    background-image: url("../images/gemma.jpg");
-  }
-
-  .o {
-    background-image: url("../images/olga.jpg");
-  }
-
-  .r {
-    background-image: url("../images/raquel.jpg");
-  }
-
-  .v {
-    background-image: url("../images/valeria.jpg");
-  }
+  // .g {
+  //   background-image: url("../images/gemma.jpg");
+  // }
+  //
+  // .o {
+  //   background-image: url("../images/olga.jpg");
+  // }
+  //
+  // .r {
+  //   background-image: url("../images/raquel.jpg");
+  // }
+  //
+  // .v {
+  //   background-image: url("../images/valeria.jpg");
+  // }
 
   .flex-item {
     border: 0;
@@ -314,7 +314,7 @@ body {
     margin: 0;
     display: inline-block;
     padding-top: 15px;
-    color: #54585a;
+    color: $color-terciary;
     font-size: 16px;
     font-family: 'Open Sans', arial, helvetica, sans-serif;
   }

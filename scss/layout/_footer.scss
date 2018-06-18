@@ -2,14 +2,14 @@
 
 footer {
   text-align: center;
-  border-top: solid #b8b8b9 1px;
+  border-top: solid $color-gris-claro 1px;
   margin-bottom: 45px;
 }
 
 .texto_claro {
   margin-top: 30px;
   margin-bottom: 20px;
-  color: #b8b8b9;
+  color: $color-gris-claro;
   font-size: 14px;
   font-family: 'Open Sans', arial, helvetica, sans-serif;
   font-weight: 400;
@@ -17,7 +17,7 @@ footer {
 }
 
 .pie {
-  color: #54585a;
+  color: $color-terciary;
   font-size: 14px;
   font-family: 'Open Sans', arial, helvetica, sans-serif;
   font-weight: 600;
@@ -51,7 +51,7 @@ footer {
   .texto_claro {
     margin-top: 30px;
     margin-bottom: 20px;
-    color: #b8b8b9;
+    color: $color-gris-claro;
     font-size: 14px;
     font-family: 'Open Sans', arial, helvetica, sans-serif;
     font-weight: 400;
@@ -59,7 +59,7 @@ footer {
   }
 
   .pie {
-    color: #54585a;
+    color: $color-terciary;
     font-size: 14px;
     font-family: 'Open Sans', arial, helvetica, sans-serif;
     font-weight: 600;

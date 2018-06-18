@@ -13,7 +13,7 @@
   // background-position: top 0px left -100px;
   background-position: center;
   height: 421px;
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 .elimina-margin-padding {
@@ -23,11 +23,11 @@
 .claim {
   position: relative;
   transform: translateY(-50%);
-  color: #000 100%;
+  color: $color-secondary;
   font-size: 18px;
   font-family: 'Open Sans', arial, helvetica, sans-serif;
   font-weight: 600;
-  background-color: #fff;
+  background-color: $color-blanco;
   margin-left: 15px;
   margin-right: 15px;
   padding-left: 15px;
@@ -38,7 +38,7 @@
 
 @media all and(min-width: 768px) {
   .claim {
-    border: 1px solid green;
+    // border: 1px solid green;
     position: relative;
     transform: translateY(-100%);
     width: 441px;
@@ -51,9 +51,6 @@
   .hero {
     height: 421px;
   }
-  // .imagen-hero {
-  //   background-image: url("../images/grupal-768.jpg");
-  // }
 }
 
 @media all and(min-width: 1200px) {

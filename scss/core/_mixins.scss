@@ -1,11 +1,11 @@
 
 @mixin text {
-  color: #54585a;
+  color: $color-terciary;
   width: 100%;
 }
 
 @mixin asterisco {
-  color: #099d8d;
+  color: $color-verde-claro;
 }
 
 @mixin mp0 {
