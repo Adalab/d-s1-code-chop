@@ -18,6 +18,7 @@
 		"gulp-uglify": "*",
 		"gulp-util": "*",
 		"gulp-zip": "*",
+		"node-sass": "^4.9.0",
 		"run-sequence": "*"
 	},
 	"devDependencies": {},

@@ -133,6 +133,12 @@ span {
   border: 0;
   border-radius: 5px;
   text-align: center;
+  -webkit-transition: color ease .8s;
+  transition: color ease .8s;
+}
+
+.send:hover {
+  background-color: #14d9c4;
 }/* Hero */.hero {
   height: 491.5px;
   position: relative;
@@ -706,45 +712,7 @@ body {
   .item {
     border: 0;
   }
-}
-@media all and (min-width: 1200px) {
-  .recuadro-foto {
-    border: 0;
-    width: 278px;
-    height: 278px;
-    border-radius: 5px;
-    border: 5px solid #f1f1f1;
-  }
 
-  .g,
-  .r {
-    margin-right: 45px;
-    margin-left: 100px;
-  }
-
-  .o,
-  .v {
-    margin-left: 45px;
-    margin-right: 100px;
-  }
-
-  .flex-item {
-    width: 439px;
-  }
-
-  .titulo-grande {
-    font-size: 24px;
-  }
-
-  .contenido-qs {
-    max-width: 924px;
-    min-width: 924px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-/* De aquí pabajo ha tocao Gemma */
-@media all and (min-width: 768px) {
   .descripcion {
     padding-bottom: 60px;
   }
@@ -859,6 +827,8 @@ body {
     border: 0;
     width: 278px;
     height: 278px;
+    border-radius: 5px;
+    border: 5px solid #f1f1f1;
   }
 
   .g,.r {
@@ -877,6 +847,13 @@ body {
 
   .titulo-grande {
     font-size: 24px;
+  }
+
+  .contenido-qs {
+    max-width: 924px;
+    min-width: 924px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .descripcion {
