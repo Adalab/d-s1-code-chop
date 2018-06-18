@@ -133,6 +133,12 @@ span {
   border: 0;
   border-radius: 5px;
   text-align: center;
+  -webkit-transition: color ease .8s;
+  transition: color ease .8s;
+}
+
+.send:hover {
+  background-color: #14d9c4;
 }/* Hero */.hero {
   height: 491.5px;
   position: relative;
