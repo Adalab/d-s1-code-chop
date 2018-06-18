@@ -742,6 +742,10 @@ body {
     bottom: 5px;
   }
 }
+.item1:hover {
+  top: 0;
+}
+
 .item2 {
   animation-name: icon;
   animation-duration: 0.4s;
@@ -762,6 +766,10 @@ body {
     bottom: 5px;
   }
 }
+.item2:hover {
+  top: 0;
+}
+
 .item3 {
   animation-name: icon;
   animation-duration: 0.6s;
@@ -782,6 +790,10 @@ body {
     bottom: 10px;
   }
 }
+.item3:hover {
+  top: 0;
+}
+
 .item4 {
   animation-name: icon;
   animation-duration: 0.8s;
@@ -802,6 +814,10 @@ body {
     bottom: 5px;
   }
 }
+.item4:hover {
+  top: 0;
+}
+
 @media all and (min-width: 768px) {
   .titulo-grande {
     border: 0;
