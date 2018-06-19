@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   // background-position: top 0px left -100px;
-  background-position: center;
+  background-position-x: center;
   height: 421px;
   // border: 1px solid red;
 }
@@ -37,6 +37,10 @@
 }
 
 @media all and(min-width: 768px) {
+  .imagen-hero {
+    background-position-y: -55px;
+  }
+
   .claim {
     // border: 1px solid green;
     position: relative;
@@ -56,6 +60,7 @@
 @media all and(min-width: 1200px) {
   .imagen-hero {
     height: 550px;
+    background-position-y: -120px;
   }
 
   .hero {
@@ -84,10 +89,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   // background-position: top 0px left -100px;
-  background-position: center;
+  background-position-x: center;
   height: 300px;
+
+  @media all and (min-width: 768px) {
+    background-position-y: -55px;
+  }
 
   @media all and (min-width: 1200px) {
     height: 400px;
+    background-position-y: -120px;
   }
 }
